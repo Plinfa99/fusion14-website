@@ -1,3 +1,4 @@
+// script.js
 function showContent(title) {
   const content = document.getElementById("content");
   content.innerHTML = `<h2>${title}</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>`;
@@ -27,3 +28,4 @@ uploadInput.addEventListener("change", (e) => {
     reader.readAsDataURL(file);
   });
 });
+
