@@ -2,42 +2,47 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Fusion 14 Ergebnisse</title>
   <link rel="stylesheet" href="style.css" />
-<script src="script.js" defer></script>
-
+  <script src="script.js" defer></script>
 </head>
 <body>
   <header>
-    <img src="logo.png" alt="Fusion 14 Logo" class="logo" />
-    <h1>Unsere Ergebnisse auf einem Blick!</h1>
+    <div class="logo-text">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/No_image_available_600_x_450.svg/600px-No_image_available_600_x_450.svg.png" alt="Logo" />
+      <span>Fusion 14</span>
+    </div>
+    <div>Unsere Ergebnisse auf einem Blick!</div>
   </header>
-  <div class="main">
-    <nav class="sidebar">
-      <ul class="main-menu">
-        <li onmouseover="toggleSubmenu('discover')">Discover</li>
-        <li onmouseover="toggleSubmenu('define')">Define</li>
-        <li onmouseover="toggleSubmenu('zwischen')">Zwischenpräsentation</li>
-        <li onmouseover="toggleSubmenu('develop')">Develop</li>
-        <li onmouseover="toggleSubmenu('deliver')">Deliver</li>
-        <li onmouseover="toggleSubmenu('abschluss')">Abschlusspräsentation</li>
-      </ul>
-      <ul class="submenu" id="submenu">
-        <!-- Submenu items will appear here -->
-      </ul>
+  <div class="container">
+    <nav>
+      <div class="nav-item">Discover
+        <div class="submenu">
+          <div onclick="showContent('Allgemein')">Allgemein</div>
+          <div onclick="showContent('IST Analyse')">IST Analyse</div>
+          <div onclick="showContent('Benchmarking')">Benchmarking</div>
+          <div onclick="showContent('Rahmenbedingungen')">Rahmenbedingungen</div>
+        </div>
+      </div>
+      <div class="nav-item" onclick="showContent('Define')">Define</div>
+      <div class="nav-item" onclick="showContent('Zwischenpräsentation')">Zwischenpräsentation</div>
+      <div class="nav-item" onclick="showContent('Develop')">Develop</div>
+      <div class="nav-item" onclick="showContent('Deliver')">Deliver</div>
+      <div class="nav-item" onclick="showContent('Abschlusspräsentation')">Abschlusspräsentation</div>
     </nav>
-    <main id="content">
-      <section class="content-box">
-        <h2>Allgemein</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut wisi enim ad minim veniam...
-        </p>
-        <div class="preview-container" id="previewContainer"></div>
-        <input type="file" id="fileInput" multiple accept="application/pdf,image/*" />
-      </section>
+    <main>
+      <div id="content" class="card">
+        <h2>Willkommen!</h2>
+        <p>Wähle ein Thema aus dem Menü links, um Inhalte anzuzeigen.</p>
+      </div>
+      <div class="card">
+        <h3>Upload Inhalte</h3>
+        <input type="file" id="upload" multiple accept="image/*,.pdf" />
+        <div id="preview" class="preview"></div>
+      </div>
     </main>
   </div>
-  <script src="script.js"></script>
 </body>
 </html>
+
