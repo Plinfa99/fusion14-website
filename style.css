@@ -64,9 +64,3 @@ main {
   max-width: 150px;
   margin: 5px;
 }
-
-
-.submenu div:hover {
-  background: #ff914d;
-  color: white;
-}
