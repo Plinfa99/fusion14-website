@@ -28,4 +28,3 @@ uploadInput.addEventListener("change", (e) => {
     reader.readAsDataURL(file);
   });
 });
-
