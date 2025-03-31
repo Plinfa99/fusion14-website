@@ -1,3 +1,4 @@
+/* style.css */
 * {
   box-sizing: border-box;
 }
@@ -13,32 +14,21 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-.logo-text {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
 header img {
   height: 40px;
 }
 .container {
   display: flex;
-  min-height: 100vh;
 }
 nav {
-  width: 220px;
+  width: 200px;
   background: #f4f4f4;
-  padding-top: 20px;
-  position: relative;
+  padding: 20px 0;
+  border-right: 1px solid #ccc;
 }
 .nav-item {
-  position: relative;
-  padding: 15px 20px;
-  margin-bottom: 10px;
-  clip-path: polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%);
+  padding: 10px 20px;
   cursor: pointer;
-  color: black;
-  font-weight: bold;
 }
 .nav-item:hover {
   background: #ff914d;
@@ -56,77 +46,25 @@ nav {
   cursor: pointer;
 }
 .submenu div:hover {
-  background: #ff914d;
+  background: #ffa366;
 }
 main {
   flex: 1;
-  padding: 30px;
+  padding: 20px;
 }
 .card {
   background: #ffe6d4;
   padding: 20px;
-  margin-bottom: 30px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .preview {
   margin-top: 15px;
 }
-.preview img,
-.preview iframe {
+.preview img, .preview iframe {
   max-width: 150px;
   margin: 5px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
 }
 
-.hero-image img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.logo-text img {
-  cursor: pointer;
-}
-
-.nav-item {
-  position: relative;
-  padding: 15px 20px;
-  margin-bottom: 10px;
-  background: linear-gradient(to right, #f4f4f4 80%, transparent 100%);
-  clip-path: polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%);
-  cursor: pointer;
-  font-weight: bold;
-  color: black;
-}
-
-.nav-item:hover {
-  background: linear-gradient(to right, #ff914d 80%, transparent 100%);
-  color: white;
-}
-
-.submenu {
-  display: none;
-  position: absolute;
-  left: 100%;
-  top: 0;
-  background: #ffe6d4;
-  padding: 10px;
-  min-width: 180px;
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
-  z-index: 2;
-}
-
-.nav-item:hover .submenu {
-  display: block;
-}
-
-.submenu div {
-  padding: 10px;
-  background: #ffbf8f;
-  margin-bottom: 5px;
-  clip-path: polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%);
-}
 
 .submenu div:hover {
   background: #ff914d;
