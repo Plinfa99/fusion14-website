@@ -21,10 +21,11 @@ header img {
   display: flex;
 }
 nav {
-  width: 500px;
+  width: 300px;
   background: #f4f4f4;
   padding: 20px 0;
   border-right: 1px solid #ccc;
+  transition: width 0.3s ease;
 }
 .nav-item {
   padding: 10px 20px;
@@ -33,6 +34,7 @@ nav {
 .nav-item:hover {
   background: #ff914d;
   color: white;
+  width: 500px;
 }
 .submenu {
   display: none;
