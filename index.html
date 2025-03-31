@@ -9,14 +9,24 @@
 </head>
 <body>
   <header>
-  <div class="logo-text">
-    <img src="logo.png" alt="Fusion 14 Logo" />
+    <div class="logo-text">
+      <!-- Klick auf Logo = Startseite -->
+      <a href="#" onclick="showContent('Startseite')">
+        <img src="logo.png" alt="Fusion 14 Logo" />
+      </a>
+    </div>
+    <div>Unsere Ergebnisse auf einem Blick!</div>
+  </header>
+
+  <!-- Titelbild unter dem Header -->
+  <div class="hero-image">
+    <img src="titelbild.jpg" alt="Teamfoto" />
   </div>
-  <div>Unsere Ergebnisse auf einem Blick!</div>
-</header>
 
   <div class="container">
     <nav>
+      <div class="nav-item" onclick="showContent('Startseite')">Startseite</div>
+
       <div class="nav-item">Discover
         <div class="submenu">
           <div onclick="showContent('Allgemein')">Allgemein</div>
@@ -31,6 +41,7 @@
       <div class="nav-item" onclick="showContent('Deliver')">Deliver</div>
       <div class="nav-item" onclick="showContent('Abschlusspräsentation')">Abschlusspräsentation</div>
     </nav>
+
     <main>
       <div id="content" class="card">
         <h2>Willkommen!</h2>
@@ -45,4 +56,3 @@
   </div>
 </body>
 </html>
-
