@@ -88,7 +88,7 @@ nav {
   color: white;
   cursor: pointer;
   margin: 6px 10px;
-  clip-path: polygon(0 0, 100% 0%, 39% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
   transition: background 0.2s ease;
   font-weight: 500;
 }
