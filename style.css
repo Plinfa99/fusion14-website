@@ -85,12 +85,30 @@ main {
   padding: 20px;
 }
 .card {
-  background: #ffe6d4;
-  padding: 20px;
+  background: white;
+  border: 2px solid #133e80; /* blauer Rahmen */
   border-radius: 5px;
-  position: relative; /* falls nötig */
-  z-index: 1; /* niedrig halten */
+  padding: 0; /* damit die Überschrift ohne Innenabstand oben sitzt */
+  margin-bottom: 20px;
+  overflow: hidden; /* damit abgerundete Ecken sauber wirken */
 }
+
+.card h2,
+.card h3 {
+  background-color: #133e80; /* Blau */
+  color: white;
+  margin: 0;
+  padding: 15px 20px;
+  font-size: 1.5em;
+  border-bottom: 1px solid #0f2e60; /* optional: Trennlinie */
+}
+
+.card p, 
+.card div:not(:first-child) {
+  padding: 20px;
+  color: #333;
+}
+
 
 .preview {
   margin-top: 15px;
