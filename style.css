@@ -38,10 +38,10 @@ nav {
 }
 
 .nav-item:hover {
-  background: #0f2e60;       /* Etwas dunkleres Blau beim Hover */
+  background: #ff914d; /* Orange */
   color: white;
-  width: auto;               /* Breite nicht vergrößern beim Hover */
 }
+
 .submenu {
   display: none;
   background: #ffe6d4;
