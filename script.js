@@ -4,12 +4,23 @@ function showContent(title) {
 
   switch (title) {
     case "Startseite":
-      text = `
-        <p><strong>Wir sind Fusion 14</strong></p>
-        <p>Wir sind ein engagiertes Team von Studierenden, die gemeinsam spannende Projekte erarbeiten, analysieren und präsentieren.</p>
-        <p>Unser Ziel ist es, innovative Lösungen im Team zu entwickeln und professionell umzusetzen.</p>
-      `;
-      break;
+  text = `
+    <p><strong>Willkommen bei FUSION 14</strong></p>
+    <p>FUSION 14 ist ein interdisziplinäres Innovationsprojekt von Studierenden des Masterstudiengangs <em>Produktdesign und Prozessentwicklung</em> an der TH Köln.</p>
+    <p>Unser Ziel: den Campus Gummersbach in einen lebendigen, inspirierenden Ort zu verwandeln, der Studierende nicht nur zum Lernen, sondern auch zum Verweilen, Begegnen und Mitgestalten einlädt.</p>
+    <p>Unter dem Motto <strong>„Campus & Community“</strong> haben wir zukunftsorientierte Konzepte entwickelt – von neuen Aufenthaltsbereichen über kreative Events bis hin zu smarten Ausleihsystemen.</p>
+    <p>In einem nutzerzentrierten Prozess – basierend auf der Double-Diamond-Methode – haben wir den Campus aus verschiedenen Perspektiven analysiert und konkrete Ideen zur Verbesserung des studentischen Lebens ausgearbeitet.</p>
+    <p><strong>Worum geht’s konkret?</strong></p>
+    <ul>
+      <li>Aufenthaltsräume & modulare Raumgestaltung</li>
+      <li>Community-Events & interdisziplinäre Begegnungen</li>
+      <li>Sport- und Freizeitangebote für mehr Lebensqualität</li>
+      <li>Digitale & analoge Kommunikation am Campus</li>
+    </ul>
+    <p>FUSION 14 steht für Kreativität, Teamgeist und den Willen, etwas zu verändern. Entdecke auf dieser Seite unsere Ideen, Konzepte und Visionen für einen Campus, der verbindet.</p>
+  `;
+  break;
+
     case "Benchmarking":
       text = "Hier stehen die Benchmarking-Ergebnisse und Analysen.";
       break;
