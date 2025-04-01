@@ -95,3 +95,6 @@ main {
   margin: 5px;
 }
 
+.nav-item:hover .submenu {
+  display: block;
+}
