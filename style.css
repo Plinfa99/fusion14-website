@@ -1,28 +1,34 @@
-/* style.css */
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  margin: 0;
   font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
 }
 
 header {
-  background: #133e80;
+  background-color: #133e80;
   color: white;
-  padding: 10px 20px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  position: sticky; /* <-- wichtig! */
-  top: 0;            /* bleibt oben kleben */
-  z-index: 999;      /* über allem */
+  align-items: center;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
+.logo-text img {
+  height: 40px;
+}
 
-header img {
-  height: 60px;
+.hero-image img {
+  width: 100vw;
+  display: block;
 }
 
 .container {
@@ -30,89 +36,59 @@ header img {
 }
 
 nav {
-  width: 300px;
-  background: #f4f4f4;
-  padding: 20px 0;
-  border-right: 1px solid #ccc;
+  width: 250px;
+  background: #f6f6f6;
+  padding: 20px 10px;
 }
 
-/* Hauptmenüpunkte */
 .nav-item {
-  position: relative;
-  padding: 10px 20px;
-  cursor: pointer;
-  background-color: #133e80;
+  background-color: #1e3d80;
   color: white;
+  padding: 10px 15px;
   margin-bottom: 10px;
-  transition: background 0.3s ease;
+  cursor: pointer;
+  clip-path: polygon(0 0, 95% 0, 100% 50%, 95% 100%, 0 100%);
+  transition: background-color 0.2s ease;
 }
 
 .nav-item:hover {
-  background-color: #0f2e60;
+  background-color: #2955a3;
 }
 
-.nav-item.has-submenu::after {
-  content: "▶";
-  float: right;
-  color: white;
-  font-size: 0.8em;
-  margin-left: 10px;
+.nav-item.has-submenu.active .submenu {
+  display: block;
 }
 
-.nav-item.active {
-  background-color: #ff914d;
-}
-
-/* Submenü erscheint RECHTS vom Menüpunkt */
 .submenu {
   display: none;
-  position: absolute;
-  top: 0;
-  left: 100%;
-  background-color: #ffe6d4;
-  z-index: 1000;
-  width: 220px;
-  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 10px 0;
-  flex-direction: column;
+  padding-left: 10px;
+  margin-top: 5px;
 }
 
-.nav-item.active .submenu {
-  display: flex;
-}
-
-/* Submenüeinträge */
 .submenu div {
-  padding: 10px 20px;
   background-color: #ff914d;
   color: white;
+  padding: 10px 15px;
+  margin: 6px 0;
+  clip-path: polygon(0 0, 92% 0, 100% 20%, 92% 100%, 0 100%);
   cursor: pointer;
-  margin: 6px 10px;
-  clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
-  transition: background 0.2s ease;
-  font-weight: 500;
 }
-
-
 
 .submenu div:hover {
   background-color: #e6731a;
 }
 
-/* Hauptinhalte */
 main {
   flex: 1;
   padding: 20px;
 }
 
-/* Kartenboxen */
 .card {
   background: white;
   border: 2px solid #133e80;
   border-radius: 6px;
   margin-bottom: 20px;
   overflow: hidden;
-  padding: 0;
 }
 
 .card h2 {
@@ -126,22 +102,42 @@ main {
 .card p {
   padding: 10px 20px;
   margin: 0;
-  color: #333;
   line-height: 1.5;
 }
 
+.content-split .split-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: 20px;
+  align-items: flex-start;
+}
 
-/* Downloadbereich */
+.text-area {
+  flex: 2;
+}
+
+.image-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.image-area img {
+  width: 100%;
+  max-width: 180px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
 .download-grid {
   display: flex;
   gap: 30px;
-  margin-top: 20px;
+  padding: 20px;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: stretch; /* gleiche Höhe für alle Boxen */
 }
-
-
 
 .download-item {
   background: #fff5eb;
@@ -154,110 +150,45 @@ main {
   text-align: center;
   padding: 10px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  height: 300px; /* gleichmäßige Höhe für alle */
 }
-
 
 .download-item:hover {
   transform: translateY(-6px);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
-
 .download-title {
-  background-color: #ff914d;
+  background: #ff914d;
   color: white;
-  padding: 5px;
   font-weight: bold;
-  border-radius: 5px 5px 0 0;
+  padding: 8px;
+  border-radius: 3px;
 }
 
 .download-item img {
   width: 100%;
-  height: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border-radius: 5px;
+  height: 100px;
   object-fit: cover;
-  min-height: 100px;
+  border-radius: 4px;
+  margin: 10px 0;
 }
-
 
 .download-button {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 8px 12px;
   background-color: #ff914d;
   color: white;
+  font-weight: bold;
+  padding: 10px 20px;
   border-radius: 20px;
   text-decoration: none;
-  font-weight: bold;
-  transition: background 0.2s;
-}
-
-.download-button:hover {
-  background-color: #e6731a;
-}
-
-/* Vorschau für Datei-Upload (falls noch genutzt) */
-.preview {
-  margin-top: 15px;
-}
-.preview img,
-.preview iframe {
-  max-width: 150px;
-  margin: 5px;
+  display: inline-block;
+  margin: 10px auto 0;
 }
 
 footer {
-  background-color: #133e80;     /* Dunkelblauer Hintergrund */
-  color: white;                  /* Weiße Schrift */
-  text-align: left;              /* Linksbündiger Text */
-  padding: 20px 30px;            /* Abstand innen */
+  background-color: #133e80;
+  color: white;
+  text-align: left;
+  padding: 20px 30px;
   font-size: 0.9em;
   margin-top: 30px;
-  border-top: 4px solid #0f2e60; /* Optional: obere Abtrennung */
 }
-
-.hero-image {
-  width: 100vw; /* ganze Bildschirmbreite */
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-.hero-image img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.content-split {
-  display: flex;
-  flex-direction: row;
-  gap: 30px;
-  align-items: flex-start;
-  padding: 20px;
-}
-
-.text-area {
-  flex: 2;
-  min-width: 0;
-}
-
-.image-area {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  align-items: center;
-}
-
-.image-area img {
-  width: 100%;
-  max-width: 160px;
-  border-radius: 5px;
-  object-fit: cover;
-}
-
-
