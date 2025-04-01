@@ -88,9 +88,11 @@ nav {
   color: white;
   cursor: pointer;
   margin: 6px 10px;
-  clip-path: polygon(0 0, 92% 0, 100% 50%, 92% 100%, 0 100%);
+  clip-path: polygon(0 0, 96% 0, 100% 20%, 96% 100%, 0 100%);
   transition: background 0.2s ease;
+  font-weight: 500;
 }
+
 
 
 .submenu div:hover {
