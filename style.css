@@ -129,7 +129,9 @@ main {
   margin-top: 20px;
   flex-wrap: wrap;
   justify-content: flex-start;
+  align-items: stretch;
 }
+
 
 .download-item {
   background: #fff5eb;
@@ -138,12 +140,18 @@ main {
   width: 180px;
   padding: 10px;
   text-align: center;
-  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
 }
 
 .download-item:hover {
-  transform: translateY(-5px);
+  transform: translateY(-6px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
+
 
 .download-title {
   background-color: #ff914d;
@@ -157,8 +165,12 @@ main {
   width: 100%;
   height: auto;
   margin-top: 10px;
+  margin-bottom: 10px;
   border-radius: 5px;
+  object-fit: cover;
+  min-height: 100px;
 }
+
 
 .download-button {
   display: inline-block;
