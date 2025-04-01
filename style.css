@@ -233,5 +233,28 @@ footer {
   display: block;
 }
 
+.content-split {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.text-area {
+  flex: 2;
+}
+
+.image-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.image-area img {
+  width: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
 
 
