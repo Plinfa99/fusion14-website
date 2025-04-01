@@ -2,10 +2,12 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
 }
+
 header {
   background: #133e80;
   color: white;
@@ -14,18 +16,20 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+
 header img {
   height: 60px;
 }
+
 .container {
   display: flex;
 }
+
 nav {
   width: 300px;
   background: #f4f4f4;
   padding: 20px 0;
   border-right: 1px solid #ccc;
-  transition: width 0.3s ease;
 }
 
 /* Hauptmenüpunkte */
@@ -36,23 +40,26 @@ nav {
   background-color: #133e80;
   color: white;
   margin-bottom: 10px;
+  transition: background 0.3s ease;
 }
 
-/* Hover-Farbe */
 .nav-item:hover {
-  background: #ff914d;
-  color: white;
+  background-color: #0f2e60;
 }
 
-/* Pfeil nach rechts */
-.nav-item::after {
+.nav-item.has-submenu::after {
   content: "▶";
   float: right;
   color: white;
   font-size: 0.8em;
+  margin-left: 10px;
 }
 
-/* Submenü */
+.nav-item.active {
+  background-color: #ff914d;
+}
+
+/* Submenü erscheint RECHTS vom Menüpunkt */
 .submenu {
   display: none;
   position: absolute;
@@ -60,33 +67,38 @@ nav {
   left: 100%;
   background-color: #ffe6d4;
   z-index: 1000;
-  width: 100%;
-  box-shadow: 4px 4px 8px rgba(0,0,0,0.1);
-  border-left: 4px solid #ff914d;
+  width: 220px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  flex-direction: column;
 }
 
 .nav-item.active .submenu {
-  display: block;
+  display: flex;
 }
 
+/* Submenüeinträge */
 .submenu div {
-  padding: 8px 30px;
+  padding: 10px 20px;
+  background-color: #ff914d;
+  margin: 5px 10px;
+  color: white;
   cursor: pointer;
-  background-color: #f0f0f0;
-  color: #133e80;
+  clip-path: polygon(0 0, 95% 0, 100% 50%, 95% 100%, 0 100%);
+  transition: background 0.2s ease;
 }
 
 .submenu div:hover {
-  background: #ffa366;
-  color: white;
+  background-color: #e6731a;
 }
 
+/* Hauptinhalte */
 main {
   flex: 1;
   padding: 20px;
 }
 
-/* Karten / Infoboxen */
+/* Kartenboxen */
 .card {
   background: white;
   border: 2px solid #133e80;
@@ -126,6 +138,11 @@ main {
   width: 180px;
   padding: 10px;
   text-align: center;
+  transition: transform 0.2s;
+}
+
+.download-item:hover {
+  transform: translateY(-5px);
 }
 
 .download-title {
@@ -159,11 +176,12 @@ main {
   background-color: #e6731a;
 }
 
-/* Upload-Vorschau (falls noch vorhanden) */
+/* Vorschau für Datei-Upload (falls noch genutzt) */
 .preview {
   margin-top: 15px;
 }
-.preview img, .preview iframe {
+.preview img,
+.preview iframe {
   max-width: 150px;
   margin: 5px;
 }
