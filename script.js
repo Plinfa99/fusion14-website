@@ -38,7 +38,7 @@ function showContent(title) {
           <li><strong>Develop:</strong> Ideen für Events, Raumgestaltung, Ausleihboxen, Outdoor-Möbel und mobile Kaffeestände.</li>
           <li><strong>Deliver:</strong> Umsetzung und Test erster Maßnahmen mit Prototypen.</li>
         </ul>
-        <img src="img/DD.png" alt="Teamfoto 3" class="foto-zentral" />
+        <img src="/img/DD.png" alt="Teamfoto 3" class="foto-zentral" />
         <div class="spacer-xs"></div>
 
         <subh>Warum das Ganze?</subh>
@@ -56,8 +56,8 @@ function showContent(title) {
       </div>
 
           <div class="image-area">
-            <img src="img/FUSION2.JPG" alt="Teamfoto 2" />
-            <img src="img/FUSION3.jpg" alt="Teamfoto 3" />
+            <img src="/img/FUSION2.JPG" alt="Teamfoto 2" />
+            <img src="/img/FUSION3.jpg" alt="Teamfoto 3" />
           </div>
         </div>
         </div>
@@ -147,8 +147,8 @@ function showContent(title) {
             <p>Unser Ziel ist es, innovative Lösungen im Team zu entwickeln und professionell umzusetzen.</p>
           </div>
           <div class="image-area">
-            <img src="logo.png" alt="Teamfoto 1" />
-            <img src="logo.png" alt="Teamfoto 2" />
+            <img src="/img/logo.png" alt="Teamfoto 1" />
+            <img src="/img/logo.png" alt="Teamfoto 2" />
           </div>
         </div>
       `;
@@ -162,7 +162,7 @@ function showContent(title) {
             <p>Analyse des aktuellen Zustands der Umgebung und des Bedarfs.</p>
           </div>
           <div class="image-area">
-            <img src="img/istanalyse.jpg" alt="IST Analyse" />
+            <img src="/img/istanalyse.jpg" alt="IST Analyse" />
           </div>
         </div>
       `;
