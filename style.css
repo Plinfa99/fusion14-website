@@ -27,39 +27,8 @@ nav {
   border-right: 1px solid #ccc;
   transition: width 0.3s ease;
 }
-.nav-item {
-  padding: 10px 20px;
-  cursor: pointer;
-  background-color: #133e80; /* Blau */
-  color: white;              /* Weiße Schrift */
-  margin-bottom: 10px;       /* Abstand zwischen Menüpunkten */
-  position: relative;        /* Für .submenu mit position:absolute */
-  transition: background 0.3s ease;
-}
 
-.nav-item:hover {
-  background: #ff914d; /* Orange */
-  color: white;
-}
-
-.submenu {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 100%; /* zeigt es rechts neben dem Hauptmenüpunkt an */
-  background-color: #ffe6d4;
-  z-index: 1000;
-  min-width: 200px;
-  box-shadow: 4px 4px 8px rgba(0,0,0,0.1);
-  border-left: 4px solid #ff914d;
-}
-
-
-.nav-item.active .submenu {
-  display: block;
-}
-
-
+/* Hauptmenüpunkte */
 .nav-item {
   position: relative;
   padding: 10px 20px;
@@ -69,6 +38,36 @@ nav {
   margin-bottom: 10px;
 }
 
+/* Hover-Farbe */
+.nav-item:hover {
+  background: #ff914d;
+  color: white;
+}
+
+/* Pfeil nach rechts */
+.nav-item::after {
+  content: "▶";
+  float: right;
+  color: white;
+  font-size: 0.8em;
+}
+
+/* Submenü */
+.submenu {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background-color: #ffe6d4;
+  z-index: 1000;
+  width: 100%;
+  box-shadow: 4px 4px 8px rgba(0,0,0,0.1);
+  border-left: 4px solid #ff914d;
+}
+
+.nav-item.active .submenu {
+  display: block;
+}
 
 .submenu div {
   padding: 8px 30px;
@@ -86,121 +85,32 @@ main {
   flex: 1;
   padding: 20px;
 }
+
+/* Karten / Infoboxen */
 .card {
   background: white;
-  border: 2px solid #133e80; /* blauer Rahmen */
+  border: 2px solid #133e80;
   border-radius: 5px;
-  padding: 0; /* damit die Überschrift ohne Innenabstand oben sitzt */
+  padding: 0;
   margin-bottom: 20px;
-  overflow: hidden; /* damit abgerundete Ecken sauber wirken */
+  overflow: hidden;
 }
 
-.card h2,
-.card h3 {
-  background-color: #133e80; /* Blau */
+.card h2, .card h3 {
+  background-color: #133e80;
   color: white;
   margin: 0;
   padding: 15px 20px;
   font-size: 1.5em;
-  border-bottom: 1px solid #0f2e60; /* optional: Trennlinie */
+  border-bottom: 1px solid #0f2e60;
 }
 
-.card p, 
-.card div:not(:first-child) {
+.card p, .card div:not(:first-child) {
   padding: 20px;
   color: #333;
 }
 
-
-.preview {
-  margin-top: 15px;
-}
-.preview img, .preview iframe {
-  max-width: 150px;
-  margin: 5px;
-}
-
-.nav-item::after {
-  content: "▶";
-  float: right;
-  color: white;
-  font-size: 0.8em;
-}
-
-.download-list {
-  list-style: none;
-  padding: 0;
-}
-
-.download-list li {
-  margin: 10px 0;
-}
-
-.download-list a {
-  color: #133e80;
-  text-decoration: none;
-  font-weight: bold;
-  border: 2px solid #133e80;
-  padding: 8px 12px;
-  border-radius: 5px;
-  display: inline-block;
-  transition: background 0.3s;
-}
-
-.download-list a:hover {
-  background: #133e80;
-  color: white;
-}
-
-.download-grid {
-  display: flex;
-  gap: 20px;
-  padding: 20px;
-  flex-wrap: wrap;
-}
-
-.download-item {
-  background: #f4f4f4;
-  border: 2px solid #133e80;
-  border-radius: 10px;
-  padding: 15px;
-  text-align: center;
-  width: 180px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  transition: transform 0.2s;
-}
-
-.download-item:hover {
-  transform: translateY(-5px);
-}
-
-.download-item img {
-  width: 100px;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-.download-item a {
-  display: block;
-  color: #133e80;
-  font-weight: bold;
-  text-decoration: none;
-  margin-top: 10px;
-}
-
-.download-item a:hover {
-  text-decoration: underline;
-}
-
-.card-header {
-  background-color: #ff914d;
-  color: white;
-  font-weight: bold;
-  font-size: 1.5em;
-  padding: 15px 20px;
-  margin: 0;
-}
-
+/* Downloadbereich */
 .download-grid {
   display: flex;
   gap: 30px;
@@ -211,7 +121,7 @@ main {
 
 .download-item {
   background: #fff5eb;
-  border: 2px solid #264494;
+  border: 2px solid #ff914d;
   border-radius: 8px;
   width: 180px;
   padding: 10px;
@@ -219,7 +129,7 @@ main {
 }
 
 .download-title {
-  background-color: #264494;
+  background-color: #ff914d;
   color: white;
   padding: 5px;
   font-weight: bold;
@@ -237,7 +147,7 @@ main {
   display: inline-block;
   margin-top: 10px;
   padding: 8px 12px;
-  background-color: #264494;
+  background-color: #ff914d;
   color: white;
   border-radius: 20px;
   text-decoration: none;
@@ -247,4 +157,13 @@ main {
 
 .download-button:hover {
   background-color: #e6731a;
+}
+
+/* Upload-Vorschau (falls noch vorhanden) */
+.preview {
+  margin-top: 15px;
+}
+.preview img, .preview iframe {
+  max-width: 150px;
+  margin: 5px;
 }
