@@ -30,11 +30,17 @@ nav {
 .nav-item {
   padding: 10px 20px;
   cursor: pointer;
+  background-color: #133e80; /* Blau */
+  color: white;              /* Weiße Schrift */
+  margin-bottom: 10px;       /* Abstand zwischen Menüpunkten */
+  position: relative;        /* Für .submenu mit position:absolute */
+  transition: background 0.3s ease;
 }
+
 .nav-item:hover {
-  background: #ff914d;
+  background: #0f2e60;       /* Etwas dunkleres Blau beim Hover */
   color: white;
-  width: 500px;
+  width: auto;               /* Breite nicht vergrößern beim Hover */
 }
 .submenu {
   display: none;
@@ -49,10 +55,15 @@ nav {
 .submenu div {
   padding: 8px 30px;
   cursor: pointer;
+  background-color: #f0f0f0;
+  color: #133e80;
 }
+
 .submenu div:hover {
   background: #ffa366;
+  color: white;
 }
+
 main {
   flex: 1;
   padding: 20px;
