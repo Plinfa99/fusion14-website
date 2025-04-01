@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fusion 14 Ergebnisse</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo-text" onclick="showContent('Startseite')" style="cursor: pointer;">
+      <img src="logo.png" alt="Logo" />
+    </div>
+    <div>Unsere Ergebnisse auf einen Blick!</div>
+  </header>
+
+  <div class="hero-image">
+    <img src="titelbild.JPG" alt="Teamfoto" />
+  </div>
+
+  <div class="container">
+    <nav>
+      <div class="nav-item" onclick="showContent('Startseite')">Wir sind Fusion 14</div>
+
+      <div class="nav-item has-submenu">
+        Discover
+        <div class="submenu">
+          <div onclick="showContent('Allgemein')">Allgemein</div>
+          <div onclick="showContent('IST Analyse')">IST Analyse</div>
+          <div onclick="showContent('Benchmarking')">Benchmarking</div>
+          <div onclick="showContent('Rahmenbedingungen')">Rahmenbedingungen</div>
+        </div>
+      </div>
+
+      <div class="nav-item has-submenu">
+        Define
+        <div class="submenu">
+          <div onclick="showContent('Allgemein')">Allgemein</div>
+          <div onclick="showContent('IST Analyse')">IST Analyse</div>
+          <div onclick="showContent('Benchmarking')">Benchmarking</div>
+          <div onclick="showContent('Rahmenbedingungen')">Rahmenbedingungen</div>
+        </div>
+      </div>
+
+      <div class="nav-item has-submenu">
+        Zwischenpräsentation
+        <div class="submenu">
+          <div onclick="showContent('Allgemein')">Allgemein</div>
+          <div onclick="showContent('IST Analyse')">IST Analyse</div>
+          <div onclick="showContent('Benchmarking')">Benchmarking</div>
+          <div onclick="showContent('Rahmenbedingungen')">Rahmenbedingungen</div>
+        </div>
+      </div>
+
+      <div class="nav-item" onclick="showContent('Develop')">Develop</div>
+      <div class="nav-item" onclick="showContent('Deliver')">Deliver</div>
+      <div class="nav-item" onclick="showContent('Abschlusspräsentation')">Abschlusspräsentation</div>
+    </nav>
+
+    <main>
+      <div id="content" class="card content-split">
+        <h2>Willkommen!</h2>
+        <div class="split-wrapper">
+          <div class="text-area">
+            <p><strong>Wir sind Fusion 14</strong></p>
+            <p>Wir sind ein engagiertes Team von Studierenden aus dem Studiengang Produktdeign und Prozessentwicklung.</p>
+            <p>Hier sehen Sie unsere Ergebnisse aus dem Großen Projekt im Wintersemester 2024/25.</p>
+          </div>
+          <div class="image-area">
+            <img src="FUSION1.JPG" alt="Teamfoto 1" />
+            <img src="FUSION2.JPG" alt="Teamfoto 2" />
+            <img src="FUSION3.jpg" alt="Teamfoto 3" />
+          </div>
+        </div>
+      </div>
+
+      <div class="card" id="downloads">
+        <h2>Downloadbereich</h2>
+        <p id="download-text">Hier findest du alle Präsentationen zum Download.</p>
+        <div class="download-grid" id="download-grid">
+          <div class="download-item">
+            <div class="download-title">Präsentation</div>
+            <img src="img/praesentation1.jpg" alt="Präsentation 1">
+            <a class="download-button" href="downloads/praesentation1.pdf" download>Download</a>
+          </div>
+          <div class="download-item">
+            <div class="download-title">Präsentation</div>
+            <img src="img/praesentation2.jpg" alt="Präsentation 2">
+            <a class="download-button" href="downloads/praesentation2.pdf" download>Download</a>
+          </div>
+          <div class="download-item">
+            <div class="download-title">Präsentation</div>
+            <img src="img/praesentation3.jpg" alt="Präsentation 3">
+            <a class="download-button" href="downloads/praesentation3.pdf" download>Download</a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <footer>
+    <p>Kontakt: fusion14@beispielmail.de | Tel: 01234 567890</p>
+    <p>&copy; 2024 Fusion 14 Team</p>
+  </footer>
+</body>
+</html>
