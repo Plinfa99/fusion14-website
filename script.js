@@ -1,8 +1,26 @@
 // script.js
 function showContent(title) {
   const content = document.getElementById("content");
-  content.innerHTML = `<h2>${title}</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>`;
+
+  let text = "";
+
+  switch (title) {
+    case "Benchmarking":
+      text = "Hier stehen die Benchmarking-Ergebnisse und Analysen.";
+      break;
+    case "IST Analyse":
+      text = "Dies ist die aktuelle Analyse des IST-Zustands.";
+      break;
+    case "Allgemein":
+      text = "Allgemeine Informationen zum Projekt.";
+      break;
+    default:
+      text = "Weitere Informationen folgen in Kürze.";
+  }
+
+  content.innerHTML = `<h2>${title}</h2><p>${text}</p>`;
 }
+
 
 const uploadInput = document.getElementById("upload");
 const preview = document.getElementById("preview");
