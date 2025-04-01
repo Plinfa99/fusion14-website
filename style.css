@@ -53,6 +53,11 @@ nav {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
+.nav-item.active .submenu {
+  display: block;
+}
+
+
 .nav-item {
   position: relative;
   padding: 10px 20px;
@@ -95,6 +100,4 @@ main {
   margin: 5px;
 }
 
-.nav-item:hover .submenu {
-  display: block;
-}
+
