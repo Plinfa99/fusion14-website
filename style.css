@@ -201,11 +201,13 @@ main {
 }
 
 footer {
-  background-color: #264494;
-  color: white;
-  text-align: center;
-  padding: 15px 10px;
-  margin-top: 30px;
+  background-color: #133e80;     /* Dunkelblauer Hintergrund */
+  color: white;                  /* Weiße Schrift */
+  text-align: left;              /* Linksbündiger Text */
+  padding: 20px 30px;            /* Abstand innen */
   font-size: 0.9em;
+  margin-top: 30px;
+  border-top: 4px solid #0f2e60; /* Optional: obere Abtrennung */
 }
+
 
