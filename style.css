@@ -215,4 +215,18 @@ footer {
   border-top: 4px solid #0f2e60; /* Optional: obere Abtrennung */
 }
 
+.hero-image {
+  width: 100vw; /* ganze Bildschirmbreite */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
 
