@@ -5,6 +5,13 @@ function showContent(title) {
   let text = "";
 
   switch (title) {
+    case "Startseite":
+      text = `
+          <p><strong>Wir sind Fusion 14</strong></p>
+          <p>Wir sind ein engagiertes Team von Studierenden, die gemeinsam spannende Projekte erarbeiten, analysieren und präsentieren.</p>
+          <p>Unser Ziel ist es, innovative Lösungen im Team zu entwickeln und professionell umzusetzen.</p>
+          `;
+    break;
     case "Benchmarking":
       text = "Hier stehen die Benchmarking-Ergebnisse und Analysen.";
       break;
