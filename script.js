@@ -5,17 +5,61 @@ function showContent(title) {
   switch (title) {
     case "Startseite":
       text = `
-        <div class="card content-split">
-          <div class="text-area">
-            <h2>Startseite</h2>
-            <p><strong>Wir sind Fusion 14</strong></p>
-            <p>Wir sind ein engagiertes Team von Studierenden, die gemeinsam spannende Projekte erarbeiten, analysieren und präsentieren.</p>
-            <p>Unser Ziel ist es, innovative Lösungen im Team zu entwickeln und professionell umzusetzen.</p>
-          </div>
+   <div id="content" class="card content-split">
+   <h2>Wir sind Fusion 14</h2>
+   <div class="split-wrapper">
+      <div class="text-area">
+      <div class="spacer-xs"></div>
+        <subh>FUSION 14 – Campus neu denken, Community neu leben</subh>
+        <p>FUSION 14 ist ein interdisziplinäres Innovationsprojekt von Studierenden des Masterstudiengangs Produktdesign und Prozessentwicklung an der TH Köln. Unser Ziel: den Campus Gummersbach in einen lebendigen, inspirierenden Ort zu verwandeln, der Studierende nicht nur zum Lernen, sondern auch zum Verweilen, Begegnen und Mitgestalten einlädt.</p>
+        <div class="spacer-xs"></div>
+
+        <subh>Was ist FUSION 14?</subh>
+        <p>Unter dem Namen FUSION 14 haben sich 14 kreative Köpfe aus Design, Ingenieurwesen und Wirtschaft zusammengeschlossen, um Lösungen zu entwickeln, die das Campusleben langfristig verbessern.</p>
+        <p><strong>Im Fokus steht dabei die Frage:</strong><br>
+        <p>Wie kann der Campus Gummersbach als attraktiver und lebenswerter Studienort wahrgenommen werden?</p>
+        <div class="spacer-xs"></div>
+
+        <subh>Unser Ziel</subh>
+        <p>Wir wollen einen Campus gestalten, der:</p>
+        <ul>
+          <li>sozial vernetzt,</li>
+          <li>ästhetisch ansprechend und</li>
+          <li>praktisch nutzbar ist – für Studierende, Lehrende und die Stadtgemeinschaft.</li>
+        </ul>
+        <p>Dafür setzen wir auf nachhaltige Strukturen: Begegnungszonen, neue Räume für Veranstaltungen, moderne Ausleihsysteme und kreative Interventionen im Alltag.</p>
+        <div class="spacer-xs"></div>
+
+        <subh>Unser Vorgehen</subh>
+        <p>Mithilfe der Double-Diamond-Methode aus dem Design Thinking haben wir uns durch vier Phasen gearbeitet:</p>
+        <ul>
+          <li><strong>Discover:</strong> Interviews mit Studierenden, Fachschaften, Stadtakteuren, Benchmarking und kreative Umfragen.</li>
+          <li><strong>Define:</strong> Entwicklung von Leitfragen, Personas und User Journeys.</li>
+          <li><strong>Develop:</strong> Ideen für Events, Raumgestaltung, Ausleihboxen, Outdoor-Möbel und mobile Kaffeestände.</li>
+          <li><strong>Deliver:</strong> Umsetzung und Test erster Maßnahmen mit Prototypen.</li>
+        </ul>
+        <img src="DD.png" alt="Teamfoto 3" class="foto-zentral" />
+        <div class="spacer-xs"></div>
+
+        <subh>Warum das Ganze?</subh>
+        <p>Der Campus Gummersbach hat viel Potenzial – aber auch Herausforderungen. Unser Projekt will studentisches Leben, Freizeitangebote und Atmosphäre deutlich verbessern.</p>
+        <div class="spacer-xs"></div>
+
+        <subh>Für wen?</subh>
+        <p>FUSION 14 richtet sich an:</p>
+        <ul>
+          <li>Studierende, die sich ein aktiveres Campusleben wünschen,</li>
+          <li>die Hochschule, die Innovationen fördern möchte,</li>
+          <li>die Stadt Gummersbach, die den Standort stärken will,</li>
+          <li>und alle, die Lust auf Veränderung haben.</li>
+        </ul>
+      </div>
+
           <div class="image-area">
-            <img src="img/team1.jpg" alt="Teamfoto 1" />
-            <img src="img/team2.jpg" alt="Teamfoto 2" />
+            <img src="FUSION2.JPG" alt="Teamfoto 2" />
+            <img src="FUSION3.jpg" alt="Teamfoto 3" />
           </div>
+        </div>
         </div>
       `;
       break;
@@ -24,12 +68,14 @@ function showContent(title) {
       text = `
         <div class="card content-split">
           <div class="text-area">
-            <h2>Define</h2>
-            <p>In dieser Phase wird das Problem klar definiert.</p>
-            <p>Wir sammeln Anforderungen und grenzen das Projekt sinnvoll ein.</p>
+            <h2>Startseite</h2>
+            <p><strong>Wir sind Fusion 14</strong></p>
+            <p>Wir sind ein engagiertes Team von Studierenden aus dem Studiengang Produktdeign und Prozessentwicklung!.</p>
+            <p>Hier sehen Sie unsere Ergebnisse aus dem Großen Projekt im Wintersemester 2024/25..</p>
           </div>
           <div class="image-area">
-            <img src="img/define1.jpg" alt="Define Bild 1" />
+            <img src="img/team1.jpg" alt="Teamfoto 1" />
+            <img src="img/team2.jpg" alt="Teamfoto 2" />
           </div>
         </div>
       `;
@@ -96,10 +142,13 @@ function showContent(title) {
         <div class="card content-split">
           <div class="text-area">
             <h2>Allgemein</h2>
-            <p>Allgemeine Informationen zum Projekt und zur Arbeitsweise.</p>
+             <p><strong>Wir sind Fusion 14</strong></p>
+            <p>Wir sind ein engagiertes Team von Studierenden, die gemeinsam spannende Projekte erarbeiten, analysieren und präsentieren.</p>
+            <p>Unser Ziel ist es, innovative Lösungen im Team zu entwickeln und professionell umzusetzen.</p>
           </div>
           <div class="image-area">
-            <img src="img/allgemein.jpg" alt="Allgemeines Bild" />
+            <img src="logo.png" alt="Teamfoto 1" />
+            <img src="logo.png" alt="Teamfoto 2" />
           </div>
         </div>
       `;
@@ -174,6 +223,13 @@ function updateDownloads(section) {
         { name: "Define Übersicht", file: "define.pdf", image: "define.jpg" }
       ];
       text.innerText = "Downloads zum Bereich Define:";
+      break;
+
+    case "Startseite":
+      files = [
+        { name: "Unser Weg", file: "UnserWeg.pdf", image: "UnserWegTB.png" }
+      ];
+      text.innerText = "Downloads zum unserem bisherigen Weg:";
       break;
 
     case "Zwischenpräsentation":
