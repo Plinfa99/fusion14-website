@@ -192,3 +192,59 @@ main {
   text-decoration: underline;
 }
 
+.card-header {
+  background-color: #ff914d;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 15px 20px;
+  margin: 0;
+}
+
+.download-grid {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.download-item {
+  background: #fff5eb;
+  border: 2px solid #ff914d;
+  border-radius: 8px;
+  width: 180px;
+  padding: 10px;
+  text-align: center;
+}
+
+.download-title {
+  background-color: #ff914d;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 5px 5px 0 0;
+}
+
+.download-item img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.download-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #ff914d;
+  color: white;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.download-button:hover {
+  background-color: #e6731a;
+}
