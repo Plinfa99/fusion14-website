@@ -1,4 +1,4 @@
-// script.js
+// Inhalt anzeigen im rechten Textfeld
 function showContent(title) {
   const content = document.getElementById("content");
 
@@ -14,6 +14,24 @@ function showContent(title) {
     case "Allgemein":
       text = "Allgemeine Informationen zum Projekt.";
       break;
+    case "Rahmenbedingungen":
+      text = "Diese Seite enthält alle Rahmenbedingungen.";
+      break;
+    case "Define":
+      text = "In dieser Phase wird das Problem klar definiert.";
+      break;
+    case "Zwischenpräsentation":
+      text = "Ergebnisse und Inhalte der Zwischenpräsentation.";
+      break;
+    case "Develop":
+      text = "Hier beginnt die Konzept- und Lösungsentwicklung.";
+      break;
+    case "Deliver":
+      text = "In dieser Phase wird geliefert und abgeschlossen.";
+      break;
+    case "Abschlusspräsentation":
+      text = "Hier findest du die finale Präsentation des Projekts.";
+      break;
     default:
       text = "Weitere Informationen folgen in Kürze.";
   }
@@ -21,50 +39,26 @@ function showContent(title) {
   content.innerHTML = `<h2>${title}</h2><p>${text}</p>`;
 }
 
-
-const uploadInput = document.getElementById("upload");
-const preview = document.getElementById("preview");
-
-uploadInput.addEventListener("change", (e) => {
-  preview.innerHTML = "";
-  const files = Array.from(e.target.files);
-  files.forEach((file) => {
-    const reader = new FileReader();
-    reader.onload = function (e) {
-      if (file.type.includes("pdf")) {
-        const iframe = document.createElement("iframe");
-        iframe.src = e.target.result;
-        iframe.width = "150";
-        iframe.height = "200";
-        preview.appendChild(iframe);
-      } else if (file.type.includes("image")) {
-        const img = document.createElement("img");
-        img.src = e.target.result;
-        preview.appendChild(img);
-      }
-    };
-    reader.readAsDataURL(file);
-  });
-});
-
+// Submenüs ein-/ausblenden per Klick
 document.querySelectorAll('.nav-item').forEach(item => {
   item.addEventListener('click', function (e) {
-    // Submenü ein-/ausblenden nur wenn es eins gibt
     const submenu = item.querySelector('.submenu');
     if (submenu) {
       e.stopPropagation();
       e.preventDefault();
 
-      // Alle anderen schließen
+      // Alle anderen Submenüs schließen
       document.querySelectorAll('.nav-item').forEach(el => {
         if (el !== item) el.classList.remove('active');
       });
 
-      // Dieses öffnen/schließen
+      // Aktuelles öffnen/schließen
       item.classList.toggle('active');
     }
   });
 });
 
-
-
+// Optional: außerhalb klicken schließt alle Submenüs
+document.addEventListener('click', () => {
+  document.querySelectorAll('.nav-item').forEach(el => el.classList.remove('active'));
+});
