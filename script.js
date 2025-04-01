@@ -29,3 +29,19 @@ uploadInput.addEventListener("change", (e) => {
   });
 });
 
+document.querySelectorAll('.nav-item').forEach(item => {
+  item.addEventListener('click', function (e) {
+    // Klick auf nav-item, aber nicht auf submenu divs
+    if (!e.target.classList.contains('nav-item')) return;
+
+    // Deaktiviere alle anderen
+    document.querySelectorAll('.nav-item').forEach(el => {
+      if (el !== item) el.classList.remove('active');
+    });
+
+    // Toggle aktuelles
+    item.classList.toggle('active');
+  });
+});
+
+
