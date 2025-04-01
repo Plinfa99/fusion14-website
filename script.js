@@ -4,55 +4,159 @@ function showContent(title) {
 
   switch (title) {
     case "Startseite":
-  text = `
-    <p><strong>Willkommen bei FUSION 14</strong></p>
-    <p>FUSION 14 ist ein interdisziplinäres Innovationsprojekt von Studierenden des Masterstudiengangs <em>Produktdesign und Prozessentwicklung</em> an der TH Köln.</p>
-    <p>Unser Ziel: den Campus Gummersbach in einen lebendigen, inspirierenden Ort zu verwandeln, der Studierende nicht nur zum Lernen, sondern auch zum Verweilen, Begegnen und Mitgestalten einlädt.</p>
-    <p>Unter dem Motto <strong>„Campus & Community“</strong> haben wir zukunftsorientierte Konzepte entwickelt – von neuen Aufenthaltsbereichen über kreative Events bis hin zu smarten Ausleihsystemen.</p>
-    <p>In einem nutzerzentrierten Prozess – basierend auf der Double-Diamond-Methode – haben wir den Campus aus verschiedenen Perspektiven analysiert und konkrete Ideen zur Verbesserung des studentischen Lebens ausgearbeitet.</p>
-    <p><strong>Worum geht’s konkret?</strong></p>
-    <ul>
-      <li>Aufenthaltsräume & modulare Raumgestaltung</li>
-      <li>Community-Events & interdisziplinäre Begegnungen</li>
-      <li>Sport- und Freizeitangebote für mehr Lebensqualität</li>
-      <li>Digitale & analoge Kommunikation am Campus</li>
-    </ul>
-    <p>FUSION 14 steht für Kreativität, Teamgeist und den Willen, etwas zu verändern. Entdecke auf dieser Seite unsere Ideen, Konzepte und Visionen für einen Campus, der verbindet.</p>
-  `;
-  break;
+      text = `
+        <div class="card content-split">
+          <div class="text-area">
+            <h2>Startseite</h2>
+            <p><strong>Wir sind Fusion 14</strong></p>
+            <p>Wir sind ein engagiertes Team von Studierenden, die gemeinsam spannende Projekte erarbeiten, analysieren und präsentieren.</p>
+            <p>Unser Ziel ist es, innovative Lösungen im Team zu entwickeln und professionell umzusetzen.</p>
+          </div>
+          <div class="image-area">
+            <img src="img/team1.jpg" alt="Teamfoto 1" />
+            <img src="img/team2.jpg" alt="Teamfoto 2" />
+          </div>
+        </div>
+      `;
+      break;
+
+    case "Define":
+      text = `
+        <div class="card content-split">
+          <div class="text-area">
+            <h2>Define</h2>
+            <p>In dieser Phase wird das Problem klar definiert.</p>
+            <p>Wir sammeln Anforderungen und grenzen das Projekt sinnvoll ein.</p>
+          </div>
+          <div class="image-area">
+            <img src="img/define1.jpg" alt="Define Bild 1" />
+          </div>
+        </div>
+      `;
+      break;
+
+    case "Zwischenpräsentation":
+      text = `
+        <div class="card content-split">
+          <div class="text-area">
+            <h2>Zwischenpräsentation</h2>
+            <p>Hier zeigen wir erste Ergebnisse und erhalten Feedback.</p>
+          </div>
+          <div class="image-area">
+            <img src="img/zwischen1.jpg" alt="Zwischenpräsentation" />
+          </div>
+        </div>
+      `;
+      break;
+
+    case "Develop":
+      text = `
+        <div class="card content-split">
+          <div class="text-area">
+            <h2>Develop</h2>
+            <p>Hier beginnt die Konzept- und Lösungsentwicklung.</p>
+          </div>
+          <div class="image-area">
+            <img src="img/develop1.jpg" alt="Develop" />
+          </div>
+        </div>
+      `;
+      break;
+
+    case "Deliver":
+      text = `
+        <div class="card content-split">
+          <div class="text-area">
+            <h2>Deliver</h2>
+            <p>In dieser Phase wird das fertige Produkt geliefert und dokumentiert.</p>
+          </div>
+          <div class="image-area">
+            <img src="img/deliver1.jpg" alt="Deliver" />
+          </div>
+        </div>
+      `;
+      break;
+
+    case "Abschlusspräsentation":
+      text = `
+        <div class="card content-split">
+          <div class="text-area">
+            <h2>Abschlusspräsentation</h2>
+            <p>Hier findest du die finale Präsentation des Projekts.</p>
+          </div>
+          <div class="image-area">
+            <img src="img/abschluss.jpg" alt="Abschlusspräsentation" />
+          </div>
+        </div>
+      `;
+      break;
+
+    case "Allgemein":
+      text = `
+        <div class="card content-split">
+          <div class="text-area">
+            <h2>Allgemein</h2>
+            <p>Allgemeine Informationen zum Projekt und zur Arbeitsweise.</p>
+          </div>
+          <div class="image-area">
+            <img src="img/allgemein.jpg" alt="Allgemeines Bild" />
+          </div>
+        </div>
+      `;
+      break;
+
+    case "IST Analyse":
+      text = `
+        <div class="card content-split">
+          <div class="text-area">
+            <h2>IST Analyse</h2>
+            <p>Analyse des aktuellen Zustands der Umgebung und des Bedarfs.</p>
+          </div>
+          <div class="image-area">
+            <img src="img/istanalyse.jpg" alt="IST Analyse" />
+          </div>
+        </div>
+      `;
+      break;
 
     case "Benchmarking":
-      text = "Hier stehen die Benchmarking-Ergebnisse und Analysen.";
+      text = `
+        <div class="card content-split">
+          <div class="text-area">
+            <h2>Benchmarking</h2>
+            <p>Vergleich von bestehenden Lösungen und deren Bewertung.</p>
+          </div>
+          <div class="image-area">
+            <img src="img/benchmark.jpg" alt="Benchmarking" />
+          </div>
+        </div>
+      `;
       break;
-    case "IST Analyse":
-      text = "Dies ist die aktuelle Analyse des IST-Zustands.";
-      break;
-    case "Allgemein":
-      text = "Allgemeine Informationen zum Projekt.";
-      break;
+
     case "Rahmenbedingungen":
-      text = "Diese Seite enthält alle Rahmenbedingungen.";
+      text = `
+        <div class="card content-split">
+          <div class="text-area">
+            <h2>Rahmenbedingungen</h2>
+            <p>Alle äußeren Einflüsse und technischen Anforderungen für das Projekt.</p>
+          </div>
+          <div class="image-area">
+            <img src="img/rahmen.jpg" alt="Rahmenbedingungen" />
+          </div>
+        </div>
+      `;
       break;
-    case "Define":
-      text = "In dieser Phase wird das Problem klar definiert.";
-      break;
-    case "Zwischenpräsentation":
-      text = "Ergebnisse und Inhalte der Zwischenpräsentation.";
-      break;
-    case "Develop":
-      text = "Hier beginnt die Konzept- und Lösungsentwicklung.";
-      break;
-    case "Deliver":
-      text = "In dieser Phase wird geliefert und abgeschlossen.";
-      break;
-    case "Abschlusspräsentation":
-      text = "Hier findest du die finale Präsentation des Projekts.";
-      break;
+
     default:
-      text = "Weitere Informationen folgen in Kürze.";
+      text = `
+        <div class="card">
+          <h2>${title}</h2>
+          <p>Weitere Informationen folgen in Kürze.</p>
+        </div>
+      `;
   }
 
-  content.innerHTML = `<h2>${title}</h2><p>${text}</p>`;
+  content.innerHTML = text;
   updateDownloads(title);
 }
 
@@ -67,8 +171,7 @@ function updateDownloads(section) {
   switch (section) {
     case "Define":
       files = [
-        { name: "Define Übersicht", file: "define.pdf", image: "define.jpg" },
-        { name: "Define Details", file: "define-details.pdf", image: "define2.jpg" }
+        { name: "Define Übersicht", file: "define.pdf", image: "define.jpg" }
       ];
       text.innerText = "Downloads zum Bereich Define:";
       break;
@@ -102,7 +205,11 @@ function updateDownloads(section) {
       break;
 
     default:
-      files = [];
+      files = [
+        { name: "Präsentation 1", file: "praesentation1.pdf", image: "praesentation1.jpg" },
+        { name: "Präsentation 2", file: "praesentation2.pdf", image: "praesentation2.jpg" },
+        { name: "Präsentation 3", file: "praesentation3.pdf", image: "praesentation3.jpg" }
+      ];
       text.innerText = "Hier findest du alle Präsentationen zum Download.";
   }
 
