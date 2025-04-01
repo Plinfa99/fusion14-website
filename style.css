@@ -211,7 +211,7 @@ main {
 
 .download-item {
   background: #fff5eb;
-  border: 2px solid #ff914d;
+  border: 2px solid #264494;
   border-radius: 8px;
   width: 180px;
   padding: 10px;
@@ -219,7 +219,7 @@ main {
 }
 
 .download-title {
-  background-color: #ff914d;
+  background-color: #264494;
   color: white;
   padding: 5px;
   font-weight: bold;
@@ -237,7 +237,7 @@ main {
   display: inline-block;
   margin-top: 10px;
   padding: 8px 12px;
-  background-color: #ff914d;
+  background-color: #264494;
   color: white;
   border-radius: 20px;
   text-decoration: none;
