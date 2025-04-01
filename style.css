@@ -122,10 +122,13 @@ main {
   border-bottom: 1px solid #0f2e60;
 }
 
-.card p, .card div:not(:first-child) {
-  padding: 20px;
+.card p {
+  padding: 0 20px 10px;
+  margin: 0;
+  line-height: 1.5; /* angenehmer Zeilenabstand */
   color: #333;
 }
+
 
 /* Downloadbereich */
 .download-grid {
