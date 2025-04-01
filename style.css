@@ -236,11 +236,14 @@ footer {
 .content-split {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 30px;
+  align-items: flex-start;
+  flex-wrap: nowrap;
 }
 
 .text-area {
   flex: 2;
+  min-width: 0;  /* Verhindert, dass Text in Spalten umbricht */
 }
 
 .image-area {
@@ -250,6 +253,7 @@ footer {
   gap: 10px;
   align-items: center;
 }
+
 
 .image-area img {
   width: 100%;
