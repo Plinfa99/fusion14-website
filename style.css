@@ -47,7 +47,7 @@ nav {
   padding: 10px 15px;
   margin-bottom: 10px;
   cursor: pointer;
-  clip-path: polygon(0 0, 95% 0, 100% 50%, 95% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
   transition: background-color 0.2s ease;
 }
 
