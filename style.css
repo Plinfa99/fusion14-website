@@ -1,46 +1,55 @@
+/* Grundlegende Reset-Einstellungen */
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  box-sizing: border-box; /* Padding + Border in Breite/Höhe einrechnen */
+  margin: 0;               /* Standard-Ränder entfernen */
+  padding: 0;              /* Standard-Abstände entfernen */
 }
 
+/* Grundstil für die Seite */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #fff;
-  color: #333;
+  font-family: Arial, sans-serif; /* Schriftart */
+  background-color: #fff;         /* Weißer Hintergrund */
+  color: #333;                    /* Dunkelgraue Schriftfarbe */
 }
 
+/* Kopfzeile */
 header {
-  background-color: #133e80;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  position: sticky;
+  background-color: #133e80; /* Dunkelblauer Hintergrund */
+  color: white;              /* Weiße Schrift */
+  display: flex;             /* Horizontales Layout */
+  justify-content: space-between; /* Abstand zwischen Logo und Text */
+  align-items: center;       /* Vertikal zentriert */
+  padding: 10px 20px;        /* Innenabstand */
+  position: sticky;          /* Bleibt oben beim Scrollen */
   top: 0;
-  z-index: 1000;
+  z-index: 1000;             /* Bleibt über anderen Elementen */
 }
 
+/* Logo */
 .logo-text img {
-  height: 40px;
+  height: 40px; /* Logo-Höhe */
 }
 
+/* Titelbild */
 .hero-image img {
-  width: 100vw;
-  display: block;
+  width: 100vw;    /* Volle Bildschirmbreite */
+  display: block;  /* Keine extra Leerzeichen */
 }
 
+/* Container für Navigation und Inhalt */
 .container {
-  display: flex;
+  display: flex; /* Nebeneinander: nav + main */
 }
 
+/* Navigationsleiste links */
 nav {
   width: 250px;
   background: #f6f6f6;
   padding: 20px 10px;
+  position: relative;
 }
 
+/* Menüeinträge */
 .nav-item {
   background-color: #1e3d80;
   color: white;
@@ -50,65 +59,101 @@ nav {
   transition: background-color 0.2s ease;
 }
 
+/* Hover-Effekt */
 .nav-item:hover {
   background-color: #2955a3;
 }
 
+/* Sichtbarkeit für geöffnete Submenüs */
 .nav-item.has-submenu.active .submenu {
   display: block;
+  top: 8px;      /* Abstand nach unten */
+  left: 100%;     /* exakt rechts vom Menüpunkt */
 }
 
+/* Standardzustand: Submenüs verstecken */
 .submenu {
   display: none;
   padding-left: 10px;
-  margin-top: 5px;
+  margin-top: 12px;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: 1000;
+  padding: 0;
+  flex-direction: column;
+  background-color: #ffe5cc; /* Helles Orange */
 }
 
+/* Einzelne Submenü-Einträge */
 .submenu div {
   background-color: #ff914d;
   color: white;
   padding: 10px 15px;
-  margin: 6px 0;
-  clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+  margin: 10px 0;
+  clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%); /* Schräge Form */
   cursor: pointer;
+  width: 300px;
 }
+
+.submenu div:first-child {
+  margin-top: 0;
+}
+
+
 
 .submenu div:hover {
-  background-color: #e6731a;
+  background-color: #e6731a; /* Dunkleres Orange beim Hover */
 }
 
+/* Hauptinhalt rechts von der Navigation */
 main {
   flex: 1;
   padding: 20px;
 }
 
+/* Karten-Stil für Inhalte */
 .card {
   background: white;
-  
   border-radius: 6px;
   margin-bottom: 20px;
   overflow: hidden;
+  
 }
 
+/* Karten-Titel */
 .card h2 {
   background-color: #133e80;
   color: white;
   margin: 0;
   padding: 15px 20px;
   font-size: 1.5em;
+  margin-left: 0;
+  padding-left: 20px;
 }
 
+/* Fließtext in Karten */
 .card p {
   padding: 10px 20px;
   margin: 0;
   line-height: 1.5;
 }
 
+.card subh {
+  font-size: 1.1em;          /* etwas größer als normal */
+  font-weight: bold;         /* fett */
+  color: #133e80;            /* dunkelblau */
+  padding: 10px 20px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Geteiltes Layout für Text/Bild */
 .content-split .split-wrapper {
   display: flex;
   flex-direction: row;
   gap: 30px;
-  padding: 20px;
+  padding: 0 20px 20px 0px; /* oben 0, sonst bleibt gleich */
   align-items: flex-start;
 }
 
@@ -122,15 +167,17 @@ main {
   flex-direction: column;
   gap: 10px;
   align-items: flex-start;
+  margin-top: 20px; /* Abstand nach oben zu Überschrift/Text */
 }
 
 .image-area img {
   width: 100%;
-  max-width: 180px;
+  max-width: 500px;
   border-radius: 5px;
   object-fit: cover;
 }
 
+/* Downloadbereich */
 .download-grid {
   display: flex;
   gap: 30px;
@@ -139,6 +186,7 @@ main {
   justify-content: flex-start;
 }
 
+/* Einzelnes Download-Element */
 .download-item {
   background: #fff5eb;
   border: 2px solid #ff914d;
@@ -152,11 +200,13 @@ main {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* Hover-Effekt */
 .download-item:hover {
   transform: translateY(-6px);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
+/* Titel im Download-Block */
 .download-title {
   background: #ff914d;
   color: white;
@@ -165,6 +215,7 @@ main {
   border-radius: 3px;
 }
 
+/* Vorschaubild der Präsentation */
 .download-item img {
   width: 100%;
   height: 100px;
@@ -173,6 +224,7 @@ main {
   margin: 10px 0;
 }
 
+/* Download-Button */
 .download-button {
   background-color: #ff914d;
   color: white;
@@ -184,6 +236,7 @@ main {
   margin: 10px auto 0;
 }
 
+/* Fußzeile */
 footer {
   background-color: #133e80;
   color: white;
@@ -193,6 +246,7 @@ footer {
   margin-top: 30px;
 }
 
+/* Bildergalerie */
 .image-block {
   margin: 40px auto;
   padding: 20px;
@@ -219,71 +273,7 @@ footer {
   border-radius: 10px;
 }
 
-
-
-.card {
-  padding: 20px;
-  margin-bottom: 24px;
-}
-
-
-nav {
-  position: relative;
-}
-
-.nav-item.has-submenu {
-  position: relative;
-}
-
-.nav-item.has-submenu .submenu {
-  position: absolute;
-  top: 0;
-  right: -180px;
-  z-index: 1000;
-}
-
-
-
-/* Submenü nach rechts öffnen */
-.nav-item.has-submenu {
-  position: relative;
-}
-
-.nav-item.has-submenu .submenu {
-  position: absolute;
-  top: 0;
-  left: 100%;
-  z-index: 1000;
-}
-
-/* Split-Layout: Text links, Bilder rechts */
-.split-wrapper {
-  display: flex;
-  gap: 20px;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-.split-wrapper .text-area {
-  flex: 2;
-}
-
-.split-wrapper .image-area {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.split-wrapper .image-area img {
-  width: 100%;
-  border-radius: 6px;
-  object-fit: cover;
-}
-
-
-
-/* Pfeile für Menüpunkte mit Submenü */
+/* Pfeil für Submenüs */
 .nav-item.has-submenu::after {
   content: "▶";
   float: right;
@@ -291,66 +281,35 @@ nav {
   margin-left: 8px;
 }
 
-/* Menü bündig mit Hauptinhalt */
+/* Maximalbreite des Containers */
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 2000px;
+  margin: 0 100px;
 }
 
 
-
-/* Submenü bündig zum Menüpunkt selbst */
-.nav-item.has-submenu {
+li {
+  list-style: none; /* entfernt den Standardpunkt */
   position: relative;
+  padding-left: 16px; /* Abstand zum Balken */
 }
 
-.nav-item.has-submenu .submenu {
-  top: 0;
-  left: 100%;
+li::before {
+  content: "•";
+  color: #133e80;
+  font-size: 1.2em;
+  margin-right: 8px;
+  margin-left: 20px;
 }
 
-
-
-/* Submenü exakt auf Höhe des Menüpunkts */
-.nav-item.has-submenu {
-  position: relative;
+.spacer-xs {
+  height: 20px;
 }
 
-.nav-item.has-submenu .submenu {
-  top: 0;
-  transform: translateY(-100%);
-  left: 100%;
-}
-
-/* Textblöcke bündig mit Titel */
-.card h2 {
-  margin-left: 0;
-  padding-left: 20px;
-}
-
-.card > *:not(h2) {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-
-
-/* Zeige Submenü bei aktivem Menüpunkt */
-.nav-item.has-submenu.active .submenu {
-  display: block;
-}
-
-/* Positionierung des Submenüs exakt rechts */
-.nav-item.has-submenu {
-  position: relative;
-}
-
-.nav-item.has-submenu .submenu {
-  position: absolute;
-  top: 0;
-  left: 100%;
-  z-index: 1000;
-  padding: 0;
-  display: none;
-  flex-direction: column;
+.foto-zentral {
+  display: block;         /* Damit das Bild als Block-Element behandelt wird */
+  max-width: 600px;       /* Maximale Breite */
+  width: 100%;            /* Skaliert das Bild responsiv */
+  margin: 20px auto;      /* Oben/Unten Abstand, horizontal zentriert */
+  border-radius: 8px;     /* Optional: leicht abgerundete Ecken */
 }
