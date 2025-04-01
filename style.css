@@ -127,3 +127,28 @@ main {
   font-size: 0.8em;
 }
 
+.download-list {
+  list-style: none;
+  padding: 0;
+}
+
+.download-list li {
+  margin: 10px 0;
+}
+
+.download-list a {
+  color: #133e80;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid #133e80;
+  padding: 8px 12px;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background 0.3s;
+}
+
+.download-list a:hover {
+  background: #133e80;
+  color: white;
+}
+
