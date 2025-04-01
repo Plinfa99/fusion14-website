@@ -9,7 +9,7 @@
 </head>
 <body>
   <header>
-    <div class="logo-text">
+    <div class="logo-text" onclick="showContent('Startseite')" style="cursor: pointer;">
       <img src="logo.png" alt="Logo" />
     </div>
     <div>Unsere Ergebnisse auf einen Blick!</div>
@@ -21,6 +21,8 @@
 
   <div class="container">
     <nav>
+      <div class="nav-item" onclick="showContent('Startseite')">Wir sind Fusion 14</div>
+
       <div class="nav-item has-submenu">
         Discover
         <div class="submenu">
@@ -64,7 +66,7 @@
 
       <div class="card">
         <h2>Downloadbereich</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh</p>
+        <p>Hier findest du alle Präsentationen zum Download.</p>
         <div class="download-grid">
           <div class="download-item">
             <div class="download-title">Präsentation</div>
@@ -85,5 +87,10 @@
       </div>
     </main>
   </div>
+
+  <footer>
+    <p>Kontakt: fusion14@beispielmail.de | Tel: 01234 567890</p>
+    <p>&copy; 2024 Fusion 14 Team</p>
+  </footer>
 </body>
 </html>
