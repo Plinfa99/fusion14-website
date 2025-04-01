@@ -15,7 +15,11 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: sticky; /* <-- wichtig! */
+  top: 0;            /* bleibt oben kleben */
+  z-index: 999;      /* über allem */
 }
+
 
 header img {
   height: 60px;
