@@ -44,14 +44,16 @@ nav {
 
 .submenu {
   display: none;
-  background: #ffe6d4;
   position: absolute;
+  top: 0;
+  left: 100%; /* zeigt es rechts neben dem Hauptmenüpunkt an */
+  background-color: #ffe6d4;
   z-index: 1000;
-  top: 100%;
-  left: 0;
-  min-width: 300px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  min-width: 200px;
+  box-shadow: 4px 4px 8px rgba(0,0,0,0.1);
+  border-left: 4px solid #ff914d;
 }
+
 
 .nav-item.active .submenu {
   display: block;
@@ -118,4 +120,10 @@ main {
   margin: 5px;
 }
 
+.nav-item::after {
+  content: "▶";
+  float: right;
+  color: white;
+  font-size: 0.8em;
+}
 
