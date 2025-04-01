@@ -273,7 +273,7 @@ function updateDownloads(section) {
     const card = document.createElement("div");
     card.className = "download-item";
     card.innerHTML = `
-      <div class="download-title">Präsentation</div>
+      <div class="download-title">${f.name}</div>
       <img src="img/${f.image}" alt="${f.name}">
       <a class="download-button" href="downloads/${f.file}" download>Download</a>
     `;
