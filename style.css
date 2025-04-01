@@ -84,7 +84,7 @@ main {
 
 .card {
   background: white;
-  border: 2px solid #133e80;
+  
   border-radius: 6px;
   margin-bottom: 20px;
   overflow: hidden;
@@ -191,4 +191,166 @@ footer {
   padding: 20px 30px;
   font-size: 0.9em;
   margin-top: 30px;
+}
+
+.image-block {
+  margin: 40px auto;
+  padding: 20px;
+  max-width: 1000px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.image-block h3 {
+  margin-bottom: 10px;
+  font-size: 1.4em;
+  color: #133e80;
+}
+
+.image-block .images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.image-block .images img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+
+
+.card {
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+
+nav {
+  position: relative;
+}
+
+.nav-item.has-submenu {
+  position: relative;
+}
+
+.nav-item.has-submenu .submenu {
+  position: absolute;
+  top: 0;
+  right: -180px;
+  z-index: 1000;
+}
+
+
+
+/* Submenü nach rechts öffnen */
+.nav-item.has-submenu {
+  position: relative;
+}
+
+.nav-item.has-submenu .submenu {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: 1000;
+}
+
+/* Split-Layout: Text links, Bilder rechts */
+.split-wrapper {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.split-wrapper .text-area {
+  flex: 2;
+}
+
+.split-wrapper .image-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.split-wrapper .image-area img {
+  width: 100%;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+
+
+/* Pfeile für Menüpunkte mit Submenü */
+.nav-item.has-submenu::after {
+  content: "▶";
+  float: right;
+  font-size: 0.9em;
+  margin-left: 8px;
+}
+
+/* Menü bündig mit Hauptinhalt */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+
+/* Submenü bündig zum Menüpunkt selbst */
+.nav-item.has-submenu {
+  position: relative;
+}
+
+.nav-item.has-submenu .submenu {
+  top: 0;
+  left: 100%;
+}
+
+
+
+/* Submenü exakt auf Höhe des Menüpunkts */
+.nav-item.has-submenu {
+  position: relative;
+}
+
+.nav-item.has-submenu .submenu {
+  top: 0;
+  transform: translateY(-100%);
+  left: 100%;
+}
+
+/* Textblöcke bündig mit Titel */
+.card h2 {
+  margin-left: 0;
+  padding-left: 20px;
+}
+
+.card > *:not(h2) {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
+/* Zeige Submenü bei aktivem Menüpunkt */
+.nav-item.has-submenu.active .submenu {
+  display: block;
+}
+
+/* Positionierung des Submenüs exakt rechts */
+.nav-item.has-submenu {
+  position: relative;
+}
+
+.nav-item.has-submenu .submenu {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: 1000;
+  padding: 0;
+  display: none;
+  flex-direction: column;
 }
