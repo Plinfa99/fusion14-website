@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fusion 14 Ergebnisse</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo-text" onclick="showContent('Startseite')" style="cursor: pointer;">
+      <img src="img\logo.png" alt="Logo" />
+    </div>
+    <div>Unsere Ergebnisse auf einen Blick!</div>
+  </header>
+
+  <div class="hero-image">
+    <img src="img/titelbild.JPG" alt="Teamfoto" />
+  </div>
+
+  <div class="container">
+    <nav>
+      <div class="nav-item" onclick="showContent('Startseite')">Wir sind Fusion 14</div>
+      
+
+      <div class="nav-item has-submenu">
+        Discover
+        <div class="submenu">
+          <div onclick="showContent('Unser Weg zum Verstehen')">Unser Weg zum Verstehen</div>
+          <div onclick="showContent('Benchmarking')">Benchmarking</div>
+          <div onclick="showContent('IST Analyse')">IST Analyse</div>
+          <div onclick="showContent('Rahmenbedingungen')">Rahmenbedingungen</div>
+        </div>
+      </div>
+
+      <div class="nav-item" onclick="showContent('Define')">Define</div>
+
+
+      <div class="nav-item" onclick="showContent('Zwischenpräsentation')">Zwischenpräsentation</div>
+
+      <div class="nav-item" onclick="showContent('Develop')">Develop</div>
+      <div class="nav-item has-submenu">
+        Deliver
+        <div class="submenu">
+          <div onclick="showContent('Deliver')">Deliver</div>
+          <div onclick="showContent('Events')">Events</div>
+          <div onclick="showContent('Raumgestaltung')">Raumgestaltung</div>
+          <div onclick="showContent('Ausleihsystem')">Ausleihsystem</div>
+          <div onclick="showContent('Interventionen')">Interventionen</div>
+        </div>
+      </div>
+      <div class="nav-item" onclick="showContent('Abschlusspräsentation')">Abschlusspräsentation</div>
+      <div class="nav-item" onclick="showContent('Danksagung')">Danksagung</div>
+    </nav>
+
+    <main>
+      <div id="content" class="card content-split">
+        <h2>Willkommen!</h2>
+        <div class="split-wrapper">
+          <div class="text-area">
+            <p><strong>Wir sind Fusion 14</strong></p>
+            <p>Wir sind ein engagiertes Team von Studierenden aus dem Studiengang Produktdeign und Prozessentwicklung.</p>
+            <p>Hier sehen Sie unsere Ergebnisse aus dem Großen Projekt im Wintersemester 2024/25.</p>
+      
+          </div>
+          <div class="image-area">
+            <img src="img/logo_blau.png" alt="Teamfoto 1" />
+          </div>
+        </div>
+      </div>
+
+      <div class="card" id="downloads">
+        <h2>Downloadbereich</h2>
+        <p id="download-text">Hier finden Sie noch einmal unsere Vorstellung zum download:</p>
+        <div class="download-grid" id="download-grid">
+          <div class="download-item">
+            <div class="download-title">FUSION 14</div>
+            <img src="img/ZP1.png" alt="Präsentation 1">
+            <a class="download-button" href="downloads/A0_POSTER01.pdf" download>Download</a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <footer>
+    <p>Kontakt: fusion14@beispielmail.de | Tel: 01234 567890</p>
+    <p>&copy; 2024 FUSION 14</p>
+  </footer>
+</body>
+</html>
