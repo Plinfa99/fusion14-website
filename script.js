@@ -788,7 +788,7 @@ function showContent(title) {
 
 function updateDownloads(section) {
   const downloadCard = document.getElementById("downloads");
-if (["Danksagung", "Willkommen", "Develop", "Unser Weg zum Verstehen", "Define", "Ausleihsystem"].includes(section)) {
+if (["Danksagung", "Willkommen", "Develop", "Unser Weg zum Verstehen", "Define", "Ausleihsystem", "Deliver"].includes(section)) {
   downloadCard.style.display = "none";
   return;
 } else {
