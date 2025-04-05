@@ -572,6 +572,7 @@ case "Define":
 <div class="spacer-xs"></div>
         <subh>Lehrende & Betreuende</subh>
         <p>Für ihr Vertrauen, ihre kritischen Fragen, die fachliche Begleitung und den Raum, den sie uns gegeben haben, um Ideen zu entwickeln und umzusetzen.</p>
+        <p>Besonders möchten wir uns hier bei Nicolas Pyschny und Sebastian Goldschmidtböing bedanken, die uns mit überrragender Expertise und Motivation in allen Lagen zur Seit gestanden haben und uns die Arbeit an diesem Thema ermöglicht haben.</p>
 <div class="spacer-xs"></div>
         <subh>Studierende</subh>
         <p>Die mitgemacht, mitgedacht und mitgestaltet haben – ob durch Interviews, Feedback, Diskussionen oder spontane Beteiligung an unseren Aktionen.</p>
