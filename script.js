@@ -273,10 +273,10 @@ function showContent(title) {
       </div>
 
           <div class="image-area">
-            <img src="img/ZPP1.jpg" alt="Teamfoto 2" />
-            <img src="img/ZPP2.jpg" alt="Teamfoto 3" />
-            <img src="img/ZPP3.jpg" alt="Teamfoto 3" />
-            <img src="img/ZPP4.jpg" alt="Teamfoto 3" />
+            <img src="img/ZPP1.JPG" alt="Teamfoto 2" />
+            <img src="img/ZPP2.JPG" alt="Teamfoto 3" />
+            <img src="img/ZPP3.JPG" alt="Teamfoto 3" />
+            <img src="img/ZPP4.JPG" alt="Teamfoto 3" />
           </div>
         </div>
         </div>
