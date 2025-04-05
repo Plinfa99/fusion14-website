@@ -842,7 +842,7 @@ if (["Danksagung", "Willkommen", "Develop", "Unser Weg zum Verstehen", "Define",
         { name: "Stakeholder A0", file: "FUSION14_Stakeholder_Poster.pdf", image: "logo_blau.png" },
         { name: "Einführung A0", file: "FUSION14_Einführung_Poster.pdf", image: "logo_blau.png" },
         { name: "Personas A0", file: "FUSION14_Personas_Poster.pdf", image: "logo_blau.png" },
-        { name: "User Journey A0", file: "FUSION14_UserJourney_Poster.pdf", image: "logo_blau.png" },
+        { name: "User Journey A0", file: "FUSION14_UserJourney_Plakat.pdf", image: "logo_blau.png" },
         { name: "Aufruf A1", file: "FUSION14_Aufsteller_A1.pdf", image: "ZP5.png" },
         { name: "Flyer", file: "Flyer_Zwischenpräsentation_FUSION14.pdf", image: "Flyer.png" },
       ];
