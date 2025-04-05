@@ -119,27 +119,23 @@ case "Define":
             <div class="spacer-xs"></div>
             <subh>Die Ergebnisse</subh>
             <p>Aus diesen Schritten entstanden konkrete Veranstaltungsformate – sowohl für regelmäßige als auch einmalige Nutzung:</p>
-            
-              <li><strong>Campus-Fitness-Clash</strong> 
-          <li><strong>GM-Cinema</strong> 
-          <li><strong>Ersti-Tag</strong>
-          <li><strong>Campus Bites</strong> 
-            
-
+            <li><strong>Campus-Fitness-Clash</strong> 
+            <li><strong>GM-Cinema</strong> 
+            <li><strong>Ersti-Tag</strong>
+            <li><strong>Campus Bites</strong> 
             <p>Besonderes Augenmerk lag auf der Niedrigschwelligkeit: Keine aufwendigen Bühnen, sondern einfache Mittel, die schnell Wirkung zeigen – und Formate, die Studierende motivieren, selbst aktiv zu werden.</p>
-
             <div class="spacer-xs"></div>
             <subh>Unser Fazit</subh>
             <p>Events machen Campus erlebbar. Sie bringen Menschen zusammen, schaffen Erinnerungen und geben dem Studium eine soziale Dimension. Unsere Formate zeigen, wie schon mit wenig Aufwand viel Atmosphäre geschaffen werden kann – und legen die Basis für ein aktiveres Miteinander am Campus Gummersbach.</p>
-          </div>
-                 <div class="image-area">
-                 <img src="img/Events1.png" alt="Teamfoto 3" />
-                 <img src="img/Events2.png" alt="Teamfoto 3" />
-                 <img src="img/Events3.png" alt="Teamfoto 3" />
-                  <img src="img/Events4.png" alt="Teamfoto 3" />
-                 </div>
+            </div>
+               <div class="image-area">
+               <img src="img/Events1.png" alt="Teamfoto 3" />
+               <img src="img/Events2.png" alt="Teamfoto 3" />
+               <img src="img/Events3.png" alt="Teamfoto 3" />
+                <img src="img/Events4.png" alt="Teamfoto 3" />
                </div>
-               </div>
+             </div>
+             </div>
              `;
              break;
 
