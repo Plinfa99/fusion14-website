@@ -295,18 +295,26 @@ footer {
 }
 
 
-li {
-  display: list-item;
-  list-style-type: disc;
-  list-style-position: outside;
-  padding-left: 0.5em;
-  text-indent: -0.5em;
+ul {
+  padding-left: 2em;  /* Abstand vom Rand */
 }
 
-ul {
-  list-style: none;
-  padding-left: 1.5em;
+li {
+  position: relative;
+  padding-left: 1.2em; /* Abstand zwischen Punkt und Text */
+  text-indent: -1.2em; /* hängt den Punkt raus */
+  list-style: none;    /* eigene Marker statt default */
 }
+
+li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #133e80;
+  font-size: 1.2em;
+  line-height: 1.2;
+}
+
 
 .spacer-xs {
   height: 20px;
