@@ -64,20 +64,25 @@ function showContent(title) {
       `;
       break;
 
-    case "Define":
+case "Define":
       text = `
       <div id="content" class="card content-split">
          <h2>Define – Erkenntnisse auf den Punkt gebracht</h2>
          <div class="split-wrapper">
              <div class="text-area">
            <p>Nach der intensiven Recherche in der Discover-Phase stand in der Define-Phase der nächste wichtige Schritt an: das Filtern, Bündeln und Verdichten der gesammelten Informationen. Ziel war es, aus den vielfältigen Eindrücken konkrete Problemstellungen und Handlungsfelder abzuleiten.</p>
+            
             <div class="spacer-xs"></div>
             <subh>Unsere Aufgabe</subh>
             <p>Alle Erkenntnisse aus Interviews, Fokusgruppen, Benchmarking und Rahmenbedingungen zusammenzuführen – und daraus klar formulierte Ausgangspunkte für die spätere Ideenfindung zu entwickeln.</p>
+            
             <div class="spacer-xs"></div>
             <subh>Unser Vorgehen</subh>
             <img src="img/Define_img.png" alt="Teamfoto 3" class="foto-zentral" />
             <p>In einem gemeinsamen Workshop haben wir unsere Erkenntnisse analysiert, und zusammengefasst. Die Ergebnisse wurden für die Zwischenpräsentation visualisiert und stehen dort als Poster-Downloads zur Verfügung. </p>
+            <ul>
+              
+
             <div class="spacer-xs"></div>
             <subh>Unser Fazit</subh>
             <p>Die Define-Phase war entscheidend dafür, die Komplexität der ersten Projektwochen zu strukturieren. Sie lieferte uns einen klaren inhaltlichen Kompass für die folgende Develop-Phase – und stellte sicher, dass wir an den Themen weiterarbeiten, die für die Campus-Community wirklich relevant sind.</p>
