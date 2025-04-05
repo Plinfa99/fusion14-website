@@ -80,7 +80,7 @@ case "Define":
             <subh>Unser Vorgehen</subh>
             <img src="img/Define_img.png" alt="Teamfoto 3" class="foto-zentral" />
             <p>In einem gemeinsamen Workshop haben wir unsere Erkenntnisse analysiert, und zusammengefasst. Die Ergebnisse wurden für die Zwischenpräsentation visualisiert und stehen dort als Poster-Downloads zur Verfügung. </p>
-            <ul>
+          
               
 
             <div class="spacer-xs"></div>
@@ -423,7 +423,7 @@ case "Define":
 
             <div class="spacer-xs"></div>
             <subh>Die Ergebnisse</subh>
-            <ul>
+            
 
             <p><strong style="color: #000;">Treppensitze im Foyer</strong><br>
             Die breite Treppe wurde durch Sitzkissen und einfache Holz-Elemente zu einem Aufenthaltsort umfunktioniert. Die Idee: eine sichtbare Einladung zum Verweilen statt nur zum Durchgehen.</p>
