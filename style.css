@@ -296,9 +296,9 @@ footer {
 
 
 li {
-  list-style: none; /* entfernt den Standardpunkt */
+  list-style: none;
   position: relative;
-  padding-left: 16px; /* Abstand zum Balken */
+  padding-left: 16px;
 }
 
 li::before {
@@ -308,6 +308,7 @@ li::before {
   margin-right: 8px;
   margin-left: 20px;
 }
+
 
 .spacer-xs {
   height: 20px;
