@@ -842,8 +842,12 @@ if (["Danksagung", "Willkommen", "Develop", "Unser Weg zum Verstehen", "Define",
         break;
     case "Zwischenpräsentation":
       files = [
-        { name: "Plakate", file: "FUSION14_Zwischenpräsentation_Poster.pdf", image: "logo_blau.png" },
-        { name: "Aufruf", file: "A1_Aufsteller_2x.pdf", image: "ZP5.png" },
+        { name: "Plakate", file: "FUSION14_Vision_Poster.pdf", image: "logo_blau.png" },
+        { name: "Plakate", file: "FUSION14_Stakeholder_Poster.pdf", image: "logo_blau.png" },
+        { name: "Plakate", file: "FUSION14_Einführung_Poster.pdf", image: "logo_blau.png" },
+        { name: "Plakate", file: "FUSION14_Personas_Poster.pdf", image: "logo_blau.png" },
+        { name: "Plakate", file: "FUSION14_UserJourney_Poster.pdf", image: "logo_blau.png" },
+        { name: "Aufruf", file: "FUSION14_Aufsteller_A1.pdf", image: "ZP5.png" },
         { name: "Flyer", file: "Flyer_Zwischenpräsentation_FUSION14.pdf", image: "Flyer.png" },
       ];
       text.innerText = "Downloads zur Zwischenpräsentation:";
@@ -851,6 +855,7 @@ if (["Danksagung", "Willkommen", "Develop", "Unser Weg zum Verstehen", "Define",
 
       case "Interventionen":
       files = [
+        { name: "Treppen Poster", file: "FUSION14_Treppe_Poster.pdf", image: "INT3.jpg" },
         { name: "StudiStep Bauanleitung", file: "FUSION14_StudiStep_Bauanleitung.pdf", image: "INT2.jpg" },
         { name: "THrone Schnittmuster", file: "FUSION14_THrone_Schnittmuster.pdf", image: "INT8.jpg" },
         { name: "Modularer Treppensitz CAD-Datei", file: "FUSION14_modularer_Treppensitz_CAD_Daten.zip", image: "INT1.jpg" },
@@ -886,7 +891,11 @@ if (["Danksagung", "Willkommen", "Develop", "Unser Weg zum Verstehen", "Define",
     case "Abschlusspräsentation":
       files = [
         { name: "Präsentation", file: "FUSION14_Endpräsentation.pdf", image: "logo_blau.png" },
-        { name: "Poster", file: "FUSION14_Abschlusspräsentation_Poster.pdf", image: "logo_blau.png" },
+        { name: "Ausleihsystem Plakate", file: "FUSION14_Ausleihsystem_Plakate.pdf", image: "logo_blau.png" },
+        { name: "Kaffeewagen Plakat", file: "FUSION14_Interventionen_Plakat.pdf", image: "logo_blau.png" },
+        { name: "Treppensitze Plakat", file: "FUSION14_Interventionen_Plakate2.pdf", image: "logo_blau.png" },
+        { name: "QR-Ralley und Challenges Plakate", file: "FUSION14_Interventionen_Plakat3.pdf", image: "logo_blau.png" },
+        { name: "aumgestaltung Plakat", file: "FUSION14_Raumgestaltung_Plakat.pdf", image: "logo_blau.png" },
       ];
       text.innerText = "Finale Präsentationen:";
       break;
