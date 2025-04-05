@@ -296,17 +296,16 @@ footer {
 
 
 li {
-  list-style: none; /* entfernt den Standardpunkt */
-  position: relative;
-  padding-left: 16px; /* Abstand zum Balken */
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: outside;
+  padding-left: 0.5em;
+  text-indent: -0.5em;
 }
 
-li::before {
-  content: "•";
-  color: #133e80;
-  font-size: 1.2em;
-  margin-right: 8px;
-  margin-left: 20px;
+ul {
+  list-style: none;
+  padding-left: 1.5em;
 }
 
 .spacer-xs {
