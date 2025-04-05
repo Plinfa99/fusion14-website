@@ -861,6 +861,7 @@ if (["Danksagung", "Willkommen", "Develop", "Unser Weg zum Verstehen", "Define",
         { name: "Modularer Treppensitz CAD-Datei", file: "FUSION14_modularer_Treppensitz_CAD_Daten.zip", image: "INT1.jpg" },
         { name: "Challenges Fahrradständer", file: "FUSION14_Fahrradständer_Challenges.pdf", image: "INT4.jpg" },
         { name: "Tisch Fahrradständer CAD-Datei", file: "FUSION14_Tischplatte.zip", image: "INT3.jpg" },
+         { name: "QR-Ralley Handout", file: "FUSION14_QR-Ralley.pdf", image: "INT3.jpg" },
       ];
       text.innerText = "Downloads zu den Ergebnissen der Gruppe Interventionen:";
       break;
