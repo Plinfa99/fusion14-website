@@ -4,7 +4,9 @@
   margin: 0;               /* Standard-Ränder entfernen */
   padding: 0;              /* Standard-Abstände entfernen */
 }
-
+ul {
+  padding-left: 2em;  /* Abstand vom Rand */
+}
 /* Grundstil für die Seite */
 body {
   font-family: Arial, sans-serif; /* Schriftart */
