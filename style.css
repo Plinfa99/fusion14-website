@@ -4,9 +4,7 @@
   margin: 0;               /* Standard-Ränder entfernen */
   padding: 0;              /* Standard-Abstände entfernen */
 }
-ul {
-  padding-left: 2em;  /* Abstand vom Rand */
-}
+
 /* Grundstil für die Seite */
 body {
   font-family: Arial, sans-serif; /* Schriftart */
@@ -298,23 +296,18 @@ footer {
 
 
 li {
-  list-style: none;
+  list-style: none; /* entfernt den Standardpunkt */
   position: relative;
-  padding-left: 2em;        /* Platz für den Punkt */
-  text-indent: -1.2em;      /* hängt erste Zeile raus */
-  margin-bottom: 0.5em;     /* Abstand zur nächsten Liste */
+  padding-left: 16px; /* Abstand zum Balken */
 }
 
 li::before {
   content: "•";
-  position: absolute;
-  left: 0;
-  top: 0.1em;               /* leichte vertikale Korrektur */
   color: #133e80;
   font-size: 1.2em;
+  margin-right: 8px;
+  margin-left: 20px;
 }
-
-
 
 .spacer-xs {
   height: 20px;
@@ -384,3 +377,4 @@ li::before {
     text-align: center;
   }
 }
+
