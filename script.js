@@ -22,22 +22,22 @@ function showContent(title) {
 
         <subh>Unser Ziel</subh>
         <p>Wir wollen einen Campus gestalten, der:</p>
-        <ul>
+        
           <li>sozial vernetzt,</li>
           <li>ästhetisch ansprechend und</li>
           <li>praktisch nutzbar ist – für Studierende, Lehrende und die Stadtgemeinschaft.</li>
-        </ul>
+        
         <p>Dafür setzen wir auf nachhaltige Strukturen: Begegnungszonen, neue Räume für Veranstaltungen, moderne Ausleihsysteme und kreative Interventionen im Alltag.</p>
         <div class="spacer-xs"></div>
 
         <subh>Unser Vorgehen</subh>
         <p>Mithilfe der Double-Diamond-Methode aus dem Design Thinking haben wir uns durch vier Phasen gearbeitet:</p>
-        <ul>
+        
           <li><strong>Discover:</strong> Interviews, Recherchen, Benchmarking und kreative Umfragen.</li>
           <li><strong>Define:</strong> Entwicklung von Leitfragen, Personas und User Journeys.</li>
           <li><strong>Develop:</strong> Ideen für Events, Raumgestaltung, Ausleihboxen, Interventionen.</li>
           <li><strong>Deliver:</strong> Umsetzung und Test erster Maßnahmen mit Prototypen.</li>
-        </ul>
+        
         <img src="img/DD.png" alt="Teamfoto 3" class="foto-zentral" />
         <div class="spacer-xs"></div>
 
@@ -47,12 +47,12 @@ function showContent(title) {
 
         <subh>Für wen?</subh>
         <p>FUSION 14 richtet sich an:</p>
-        <ul>
+        
           <li>Studierende, die sich ein aktiveres Campusleben wünschen,</li>
           <li>die Hochschule, die Innovationen fördern möchte,</li>
           <li>die Stadt Gummersbach, die den Standort stärken will,</li>
           <li>und alle, die Lust auf Veränderung haben.</li>
-        </ul>
+        
       </div>
 
           <div class="image-area">
@@ -109,22 +109,22 @@ case "Define":
             <p>In Gesprächen, Umfragen und Rückmeldungen aus der Discover-Phase zeigte sich schnell: Viele Studierende wünschen sich mehr Gelegenheiten zur Begegnung außerhalb des Vorlesungsplans – spontane Aktionen, regelmäßige Events und sichtbare Highlights, die den Alltag auflockern.</p>
 
             <p>Um passende Formate zu entwickeln, haben wir:</p>
-            <ul>
+            
               <li>Bedürfnisse analysiert (z. B. Zielgruppen, Zeitfenster, Semesterphasen)</li>
               <li>Eventideen gesammelt, geclustert und in Steckbriefen konkretisiert</li>
               <li>Veranstaltungen mit unterschiedlichem Aufwand verglichen</li>
               <li>Umsetzungshürden (z. B. Genehmigungen, Technik, Kommunikation) recherchiert</li>
-            </ul>
+            
 
             <div class="spacer-xs"></div>
             <subh>Die Ergebnisse</subh>
             <p>Aus diesen Schritten entstanden konkrete Veranstaltungsformate – sowohl für regelmäßige als auch einmalige Nutzung:</p>
-            <ul>
+            
               <li><strong>Campus-Fitness-Clash</strong> 
           <li><strong>GM-Cinema</strong> 
           <li><strong>Ersti-Tag</strong>
           <li><strong>Campus Bites</strong> 
-            </ul>
+            
 
             <p>Besonderes Augenmerk lag auf der Niedrigschwelligkeit: Keine aufwendigen Bühnen, sondern einfache Mittel, die schnell Wirkung zeigen – und Formate, die Studierende motivieren, selbst aktiv zu werden.</p>
 
@@ -155,11 +155,11 @@ case "Define":
             <div class="spacer-xs"></div>
             <subh>Unser Vorgehen</subh>
             <p>Ausgehend von den Bedürfnissen und Wünschen aus der Discover-Phase analysierten wir bestehende Räume und fragten uns:</p>
-            <ul>
+            
               <li>Welche Raumnutzungen sind aktuell möglich – und welche fehlen?</li>
               <li>Welche Funktionen brauchen Studierende im Alltag (z. B. Ruhe, Austausch, Kreativität)?</li>
               <li>Welche Räume lassen sich mit einfachen Mitteln umgestalten oder aufwerten?</li>
-            </ul>
+            
 <div class="spacer-xs"></div>
             <p>Nach einer Phase der Ideenfindung und Planung haben wir zwei konkrete Räume im IAM ausgewählt, die prototypisch umgestaltet wurden:</p>
 
@@ -174,12 +174,12 @@ case "Define":
 
             <div class="spacer-xs"></div>
             <subh>Die Ergebnisse</subh>
-            <ul>
+            
               <li>Gestaltung mit günstigen, transportablen Materialien</li>
               <li>Gestaltung in enger Abstimmung mit Nutzer:innen (z. B. durch Umfragen & Probenutzung)</li>
               <li>Aufbau eines Konzeptes, das auf andere Räume übertragbar ist</li>
               <li>Kombination von funktionalem Nutzen mit Atmosphäre & Offenheit</li>
-            </ul>
+            
 <div class="spacer-xs"></div>
             <p>Begleitend erstellten wir ein „Raumgestaltungskit“, das anderen Gruppen oder Fachschaften helfen kann, ähnliche Räume selbst zu entwickeln – inklusive Checkliste, Moodboard und Tipps zur Umsetzung.</p>
 
@@ -209,11 +209,11 @@ case "Define":
             <div class="spacer-xs"></div>
             <subh>Unser Ziel</subh>
             <p>Wir wollten ein Ausleihsystem schaffen, das:</p>
-            <ul>
+            
               <li>den Alltag am Campus erleichtert</li>
               <li>spontane Aktivitäten ermöglicht</li>
               <li>und das studentische Miteinander fördert – draußen wie drinnen</li>
-            </ul>
+            
             <p>Im Mittelpunkt stand die Frage: Was brauchen Studierende im Alltag – und wie können wir das teilen statt besitzen?</p>
 
             <div class="spacer-xs"></div>
@@ -221,23 +221,23 @@ case "Define":
             <p>Wir starteten mit einer Bedarfserhebung: Was würden Studierende tatsächlich nutzen? Die Antworten reichten von Sportequipment über Picknickdecken bis hin zu Bastelmaterial.</p>
             <p>Daraufhin entwickelten wir die Idee des „Boxenstopps“ – eines mobilen, flexibel nutzbaren Leihsystems in Form eines Rollwagens mit mehreren Seitenflächen.</p>
 
-            <ul>
+            
               <li><strong>Designkonzept:</strong> quadratisch, kompakt, beweglich – mit Infoflächen, Schließsystem und modularer Innenstruktur</li>
               <li><strong>Inhalt:</strong> wechselnde Themenboxen – z. B. Sportbox (Ball, Hütchen, Springseil), Chillbox (Decken, Kartenspiel), Kreativbox (Stifte, Papier, Klemmbrett)</li>
               <li><strong>Nutzung:</strong> unkompliziert und sichtbar – am besten an einem zentralen Ort wie dem Foyer oder im Außenbereich</li>
-            </ul>
+            
 
             <p>Wir entwickelten dazu ein Präsentationsmodell im Maßstab, erstellten Visualisierungen und dokumentierten alle Funktionen, Nutzungsszenarien und Erweiterungsmöglichkeiten.</p>
 
             <div class="spacer-xs"></div>
             <subh>Das Ergebnis</subh>
             <p><strong>„Boxenstopp“ – das mobile Ausleihsystem für Studierende</strong></p>
-            <ul>
+            
               <li>visuell auffällig und selbsterklärend</li>
               <li>funktional erweiterbar (z. B. durch Stecksystem, Gleitschienen, Stromversorgung)</li>
               <li>flexibel einsetzbar für spontane Nutzung oder Events</li>
               <li>realitätsnah konzipiert, mit Blick auf Sicherheit, Platzbedarf und Wartung</li>
-            </ul>
+            
             <p>Der Prototyp wurde bei der Abschlusspräsentation ausgestellt – und stieß auf durchweg positives Feedback.</p>
 
             <div class="spacer-xs"></div>
@@ -301,12 +301,12 @@ case "Define":
             <subh>Fokus durch vier Fragestellungen</subh>
             <img src="img/Dev1.png" alt="Teamfoto 3" class="foto-zentral" />
             <p>Basierend auf diesen „How might we…?“-Fragen entstanden vier inhaltliche Schwerpunkte (Cluster), auf die wir unseren Fokus gelegt haben:</p>
-            <ul>
+            
               <li><strong>Outdoor:</strong> Wie kann der Außenraum als Spielraum für studentisches Leben genutzt werden?</li>
               <li><strong>Informationsvermittlung:</strong> Wie lassen sich Kommunikationskanäle verbessern, um Netzwerke zu stärken?</li>
               <li><strong>Begegnungszonen:</strong> Wie können Räume geschaffen werden, die Begegnung, Austausch und Rückzug ermöglichen?</li>
               <li><strong>Essensangebot:</strong> Wie kann das Angebot der Mensa besser auf die Bedürfnisse der Studierenden eingehen?</li>
-            </ul>
+            
 <img src="img/Dev3.png" alt="Teamfoto 3" class="foto-zentral" />
             <div class="spacer-xs"></div>
             <subh>Ideen entwickeln – kreativ & methodisch</subh>
@@ -315,11 +315,11 @@ case "Define":
 
             <p><strong>Ideen generieren (divergent):</strong></p>
  
-            <ul>
+            
               <li><strong>Visionboard zum Anfassen:</strong> Wir bastelten, zeichneten und bauten erste Gedanken und Visionen für den Campus.</li>
               <li><strong>8 Minuten – 8 Ideen:</strong> Für jede Leitfrage entwickelten alle Teammitglieder in kürzester Zeit möglichst viele Ideen.</li>
               <li><strong>Steckbriefe & Ideensammlung:</strong> Die Ideen wurden geclustert, dokumentiert und in Kleingruppen weiterentwickelt.</li>
-            </ul>
+            
 
             <div class="spacer-xs"></div>
             <subh>Ideen bewerten & auswählen</subh>
@@ -327,18 +327,18 @@ case "Define":
             <p>Anschließend wurde es analytischer. Gemeinsam haben wir die vielversprechendsten Ideen ausgewählt und weiter konkretisiert:</p>
 
             <p><strong>Workshop & Ideenfilterung (konvergent):</strong></p>
-            <ul>
+            
               <li>Ähnliche Ideen wurden zusammengefasst und als Elevator Pitches präsentiert.</li>
               <li>Die Konzepte wurden in einer Nutzen-Aufwand-Matrix eingeordnet – also: Was bringt viel, was ist umsetzbar?</li>
-            </ul>
+            
 
             <p><strong>Nutzwertanalyse:</strong></p>
             <img src="img/Dev4.png" alt="Teamfoto 3" class="foto-zentral" />
-            <ul>
+            
               <li>Zur finalen Bewertung haben wir eine strukturierte Nutzwertanalyse durchgeführt.</li>
               <li>Die Kriterien wurden gemeinsam gewichtet, jede Lösung einzeln bewertet.</li>
               <li>Ziel war es, fundiert zu entscheiden, welche Ideen wir in der nächsten Phase umsetzen wollen.</li>
-            </ul>
+            
 
             <div class="spacer-xs"></div>
             <subh>Unser Fazit</subh>
@@ -374,13 +374,13 @@ case "Define":
 
             <p><strong>3. Interventionen </strong><br>
             Hier ging es um schnelle, sichtbare Veränderungen im Campusalltag. Die Gruppe entwickelte und testete spontane Formate wie:</p>
-            <ul>
+            
               <li>ein mobiler Kaffeewagen</li>
               <li>Treppensitze im Foyer</li>
               <li>eine QR-Code-Rallye</li>
               <li>Aktionen an den Fahrradständern (z. B. Sport-, Dehnübungen, Spielangebote)</li>
               <li>ein analoges Schwarzes Brett</li>
-            </ul>
+            
 <div class="spacer-xs"></div>
             <p><strong>4. Ausleihsysteme </strong><br>
             Diese Gruppe konzipierte ein flexibles Ausleihsystem, das studentische Freizeitaktivitäten unterstützt – mit der Idee einer mobilen Leihstation („Boxenstopp“) für Sport- und Kreativmaterialien. Parallel entstand die WA-Community, eine WhatsApp-Struktur mit Gruppen für News, Events und Austausch.</p>
@@ -413,12 +413,12 @@ case "Define":
             <div class="spacer-xs"></div>
             <subh>Unser Vorgehen</subh>
             <p>Ausgangspunkt waren Beobachtungen aus der Sinnesdokumentation, Gespräche mit Studierenden und eigene Erfahrungen am Campus. Daraus entwickelten wir Ideen, die:</p>
-            <ul>
+            
               <li>gezielt untergenutzte Orte ansprechen</li>
               <li>für Bewegung, Begegnung oder Interaktion sorgen</li>
               <li>ohne langfristige Genehmigungen realisierbar sind</li>
               <li>direktes Feedback ermöglichen</li>
-            </ul>
+            
             <p>In mehreren Mini-Workshops konkretisierten wir unsere Ansätze und testeten erste Ideen direkt auf dem Campus.</p>
 
             <div class="spacer-xs"></div>
@@ -506,11 +506,11 @@ case "Define":
             <div class="spacer-xs"></div>
             <subh>Unser Vorgehen</subh>
             <p>Aus der IST-Analyse wussten wir:</p>
-            <ul>
+            
               <li>Es gibt keine zentrale Plattform für Infos, Veranstaltungen und Mitteilungen</li>
               <li>Bestehende Kanäle (Moodle, Mail, Plakate) wirken fragmentiert oder übersehen</li>
               <li>Studierende wünschen sich mehr Überblick, Austausch und digitale Möglichkeiten</li>
-            </ul>
+            
             <p>Wir entwickelten daraufhin drei ineinandergreifende Kommunikationslösungen, die unterschiedliche Bedürfnisse abdecken – analog und digital, schnell und nachhaltig.</p>
 
             <div class="spacer-xs"></div>
@@ -613,28 +613,28 @@ case "Define":
 <div class="spacer-xs"></div>
         <subh>Benchmarking (Externer Blick)</subh>
         <p>Diese Gruppe analysierte vergleichbare Hochschulen und Städte, um erfolgreiche Konzepte für lebendige Campusumgebungen zu identifizieren.</p>
-        <ul>
+        
           <li>Web-Recherchen & Social Media</li>
           <li>Exkursionen zur Dutch Design Week Eindhoven & Folkwang Universität Essen</li>
           <li>Anwendung der Matching-Methode (Willi-Hanni-Gebbi-Board)</li>
-        </ul>
+        
 <div class="spacer-xs"></div>
         <subh>IST-Analyse (Interner Blick)</subh>
         <p>Hier lag der Fokus auf den Bedürfnissen der Studierenden vor Ort.</p>
-        <ul>
+        
           <li>Fokusgruppen und Einzelinterviews</li>
           <li>Sinnes- und Fotodokumentationen</li>
           <li>Aufsteller auf dem Campus für spontane Impulse</li>
           <li>Analyse bestehender Angebote & Stakeholder-Perspektiven</li>
-        </ul>
+        
 <div class="spacer-xs"></div>
         <subh>Rahmenbedingungen (Regulatorischer Blick)</subh>
         <p>Diese Gruppe identifizierte alle organisatorischen, rechtlichen und sicherheitsrelevanten Einschränkungen für zukünftige Maßnahmen.</p>
-        <ul>
+        
           <li>Interviews mit Hochschulverantwortlichen</li>
           <li>Recherche zu Veranstaltungsvorgaben, Brandschutz, Zugänglichkeit etc.</li>
           <li>Erstellung eines Handouts zu Regularien</li>
-        </ul>
+        
 <div class="spacer-xs"></div>
         <subh>Methodenvielfalt für maximale Tiefe</subh>
         <p>Durch diese strukturierte Arbeitsteilung konnten wir die Situation aus drei komplementären Perspektiven beleuchten: inspirierende Best Practices von außen, echte Erfahrungen von innen und die realistischen Rahmenbedingungen für mögliche Lösungen.</p>
@@ -675,12 +675,12 @@ case "Define":
         <div class="spacer-xs"></div>
         <subh>Die Ergebnisse</subh>
         <p>Die Erkenntnisse der IST-Gruppe zeigten deutlich:</p>
-        <ul>
+        
           <li>Es fehlt an niedrigschwelligen Begegnungsmöglichkeiten – sowohl innen wie außen.</li>
           <li>Viele Studierende empfinden den Campus als funktional, aber nicht einladend.</li>
           <li>Die Kommunikationswege zu Veranstaltungen oder Angeboten sind oft unklar oder zu verstreut.</li>
           <li>Es herrscht ein starker Wunsch nach mehr sozialer Interaktion am Campus – und mehr Verbindung zur Stadt Gummersbach.</li>
-        </ul>
+        
 
         <p>Diese Ergebnisse bildeten eine entscheidende Grundlage für die nachfolgenden Projektphasen und halfen dabei, realitätsnahe, bedürfnisorientierte Konzepte zu entwickeln. Das Miro-Board für die Wünsche finden sie hier in höherer Auflösung: <a href="https://miro.com/welcomeonboard/Wm9Vb1dHVDA2RklDMVdRdTduUGxHRzh5NHpYSHNxdGI2OXJrV3VIY3dNSk5TZ3BxNWRCSTF1b3FIeVdvemNDWEdGeEQ0R29BY1RVVGh1ZXpaS2U1c3NhbC9teFZyeGxiQnRuRU51MFdsTFJLNnpFY1JJWGhNWnVJQWh3RjRqV053VHhHVHd5UWtSM1BidUtUYmxycDRnPT0hdjE=?share_link_id=203974847063" target="_blank">Miro-Board</a></p>
       </div>
@@ -712,13 +712,13 @@ case "Define":
         <div class="spacer-xs"></div>
               <subh>Was wir mitgenommen haben</subh>
               <p>Erfolgreiche Campusse setzen auf:</p>
-              <ul>
+              
                 <li>Offene, flexibel nutzbare Räume für Arbeit und Freizeit</li>
                 <li>Kulinarische Vielfalt durch Foodtrucks und studentische Cafés</li>
                 <li>Sichtbare Events, die Gemeinschaft schaffen</li>
                 <li>Kommunikation, die funktioniert – über Instagram, Discord & Co.</li>
                 <li>Räume für Mitgestaltung, Kultur, Sport und Kreativität</li>
-              </ul>
+              
                       <div class="spacer-xs"></div>
               <subh>Unser Fazit</subh>
               <p>Ein lebendiger Campus ist kein Zufallsprodukt – sondern das Ergebnis mutiger Ideen, offener Strukturen und echter Teilhabe. Die Erkenntnisse aus dem Benchmarking haben unsere Konzeptentwicklung maßgeblich geprägt und zeigen: Gummersbach kann mehr.</p>
@@ -745,20 +745,20 @@ case "Define":
                   <subh>Unser Vorgehen</subh>
                   <img src="img/RB.png" alt="Teamfoto 3" class="foto-zentral" />
                   <p>Wir haben Informationen gesammelt, Gespräche geführt und recherchiert. Dazu gehörten:</p>
-                  <ul>
+                  
                     <li>Interviews mit Ansprechpersonen aus Verwaltung, Technik und Sicherheit</li>
                     <li>Analyse von Hochschulrichtlinien, Brandschutzvorgaben und Veranstaltungsregeln</li>
                     <li>Sammlung und Aufbereitung aller relevanten Dokumente</li>
-                  </ul>
+                  
         <div class="spacer-xs"></div>
                   <subh>Erkenntnisse aus unserer Recherche</subh>
-                  <ul>
+                  
                     <li>Viele Ideen sind grundsätzlich umsetzbar – aber unter bestimmten Bedingungen (z. B. Brandschutz, Lärmschutz, Fluchtwege)</li>
                     <li>Veranstaltungsplanung ist möglich, aber aufwändig: Es braucht Ansprechpartner:innen, rechtzeitige Anträge und ein gutes Konzept</li>
                     <li>Manche Räume sind öffentlich zugänglich, andere nur eingeschränkt oder gar nicht nutzbar – es braucht transparente Regelungen</li>
                     <li>Bei Infrastruktur (z. B. Strom, Wasser, Möbel) muss frühzeitig geplant werden – spontane Aktionen sind schwer realisierbar</li>
                     <li>Kreative Formate wie Pop-up-Stände oder Veranstaltungen im Außenbereich sind möglich, wenn Sicherheitsauflagen erfüllt werden</li>
-                  </ul>
+                  
         <div class="spacer-xs"></div>
                   <subh>Unser Fazit</subh>
                   <p>Gute Ideen brauchen gute Vorbereitung. Die rechtlichen und organisatorischen Rahmenbedingungen bilden den Boden, auf dem unsere Konzepte wachsen können. Wir haben das Wissen gesammelt – damit andere nicht bei null anfangen müssen.</p>
