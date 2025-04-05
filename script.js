@@ -851,7 +851,7 @@ if (["Danksagung", "Willkommen", "Develop", "Unser Weg zum Verstehen", "Define",
 
       case "Interventionen":
       files = [
-        { name: "Treppen Poster A1", file: "FUSION14_Treppe_Poster.pdf", image: "INT3.jpg" },
+        { name: "Treppen Poster A1", file: "FUSION14_Treppe_Poster.pdf", image: "INT10.jpg" },
         { name: "StudiStep Bauanleitung", file: "FUSION14_StudiStep_Bauanleitung.pdf", image: "INT2.jpg" },
         { name: "THrone Schnittmuster", file: "FUSION14_THrone_Schnittmuster.pdf", image: "INT8.jpg" },
         { name: "Modularer Treppensitz CAD-Datei", file: "FUSION14_modularer_Treppensitz_CAD_Daten.zip", image: "INT1.jpg" },
