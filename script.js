@@ -78,7 +78,6 @@ function showContent(title) {
             <subh>Unser Vorgehen</subh>
             <img src="img/Define_img.png" alt="Teamfoto 3" class="foto-zentral" />
             <p>In einem gemeinsamen Workshop haben wir unsere Erkenntnisse analysiert, und zusammengefasst. Die Ergebnisse wurden für die Zwischenpräsentation visualisiert und stehen dort als Poster-Downloads zur Verfügung. </p>
-            <ul>
             <div class="spacer-xs"></div>
             <subh>Unser Fazit</subh>
             <p>Die Define-Phase war entscheidend dafür, die Komplexität der ersten Projektwochen zu strukturieren. Sie lieferte uns einen klaren inhaltlichen Kompass für die folgende Develop-Phase – und stellte sicher, dass wir an den Themen weiterarbeiten, die für die Campus-Community wirklich relevant sind.</p>
