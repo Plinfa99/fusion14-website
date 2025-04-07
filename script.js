@@ -119,10 +119,12 @@ case "Define":
             <div class="spacer-xs"></div>
             <subh>Die Ergebnisse</subh>
             <p>Aus diesen Schritten entstanden konkrete Veranstaltungsformate – sowohl für regelmäßige als auch einmalige Nutzung:</p>
+
             <li><strong>Campus-Fitness-Clash</strong> 
             <li><strong>GM-Cinema</strong> 
             <li><strong>Ersti-Tag</strong>
             <li><strong>Campus Bites</strong> 
+            
             <p>Besonderes Augenmerk lag auf der Niedrigschwelligkeit: Keine aufwendigen Bühnen, sondern einfache Mittel, die schnell Wirkung zeigen – und Formate, die Studierende motivieren, selbst aktiv zu werden.</p>
             <div class="spacer-xs"></div>
             <subh>Unser Fazit</subh>
