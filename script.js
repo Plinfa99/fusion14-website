@@ -223,7 +223,7 @@ case "Define":
 
             
               <li><strong>Designkonzept:</strong> quadratisch, kompakt, beweglich – mit Infoflächen, Schließsystem und modularer Innenstruktur</li>
-              <li><strong>Inhalt:</strong> wechselnde Themenboxen – z. B. Sportbox (Ball, Hütchen, Springseil), Chillbox (Decken, Kartenspiel), Kreativbox (Stifte, Papier, Klemmbrett)</li>
+              <li><strong>Inhalt:</strong> wechselnde Themenboxen – z. B. Sportbox, Chillbox, Kreativbox</li>
               <li><strong>Nutzung:</strong> unkompliziert und sichtbar – am besten an einem zentralen Ort wie dem Foyer oder im Außenbereich</li>
             
 
